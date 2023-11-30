@@ -1,0 +1,9 @@
+.wrapper{
+    display: flex;
+}
+.contactForm{
+    width: 45%;
+}
+.info{
+    width: 45%;  
+}

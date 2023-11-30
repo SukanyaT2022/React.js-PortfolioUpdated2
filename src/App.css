@@ -1,0 +1,106 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* portfolio title on each page */
+
+/* base color bg-[#eeeeee] */
+html,body{
+  overflow-x: hidden
+}
+.controlWholeLayout{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.targetTitle{
+    background: -webkit-linear-gradient(#ffc94b, #F17a7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+/* Homepage */
+  .bigHero{
+    background-image: url('https://images.unsplash.com/photo-1666891827481-8fbc6b5082fa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHxiYWNrZ3JvdW5kJTIwZGVzaWduJTIwYmx1ZSUyMHBpbmt8ZW58MHx8MHx8fDA%3D');
+  height: 70vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+ .text{
+width: 30%;
+margin-left: 50px;
+ }
+ .myImage{
+  width: 300px;
+ background-color: #F17a7e;
+ height: 300px;
+ border-radius: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ }
+ .myImage img{
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+ }
+/* ipad*/
+@media screen and (max-width:900px){
+ /* homepage */
+ .bigHero{
+height: 40vh;
+}
+.text{
+  width: 40%;
+  margin-left: 50px;
+   }
+}
+
+/* resume page */
+
+.icon{
+font-size: 20px;
+background-color:#eeeeee;
+padding: 10px;
+border-radius: 100%;
+}
+.controlWholeLayout{
+width: 90%;
+margin: 50px auto;
+}
+/* skills section */
+.skills{
+  list-style: disc;
+ 
+}
+
+
+
+
+/* phone */
+ @media screen and (max-width:600px){
+  .bigHero{
+flex-direction: column;
+height: auto;
+padding: 30px 0px;
+    }
+    .text{
+      width: 70%;
+      margin-left: 0px;
+      margin-top: 20px;
+      text-align: center;
+       }
+       .myImage{
+        width: 200px;
+        height: 200px;
+     
+    
+       }
+ }
+
