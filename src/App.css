@@ -12,7 +12,7 @@ html,body{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
-
+/* apply all title from porfolio to contactUs */
 .targetTitle{
     background: -webkit-linear-gradient(#ffc94b, #F17a7e);
     -webkit-background-clip: text;
@@ -77,8 +77,9 @@ margin: 50px auto;
 /* skills section */
 .skills{
   list-style: disc;
- 
+
 }
+/* contact us page */
 
 
 
