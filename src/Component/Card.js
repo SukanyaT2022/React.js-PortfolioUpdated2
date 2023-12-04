@@ -3,10 +3,10 @@ import './Card.css';
 
 const Card = ({ data }) => {
   return (
-    <div>
+    <div >
       {data.map((val) => {
         return (
-          <div key={val.id}>
+          <div key={val.id} >
             {/* {val.title}
   {val.detail}
    {val.myLink}
@@ -15,8 +15,9 @@ const Card = ({ data }) => {
 
             <a
               href={val.myLink}
-              class="flex flex-col items-center bg-[#F9FAF4] md:bg-red-200 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-2xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 m-auto my-5"
+              class="flex flex-col items-center bg-[#F9FAF4] md:bg-red-200 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-2xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 m-auto my-8"
             >
+              {/* above my add margin top botttom on each individulae box */}
               <img
                 class="object-cover w-full rounded-t-lg h-56  md:h-48 md:w-48 md:rounded-none md:rounded-s-lg"
                 src={val.image}

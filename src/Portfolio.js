@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div>
       <h2 className=' targetTitle text-center py-10 text-3xl md:text-5xl font-bold'>Portfolio</h2>
-      <div>
+      <div >
       <Card data={dataPortfolio}/>
       </div>
     </div>

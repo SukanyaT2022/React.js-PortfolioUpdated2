@@ -24,7 +24,7 @@ I first learned JavaScript from Free Code Camp, Udemy, and YouTube. Specifically
 
 After three months of self-teaching, I knew what I would love to do for my future career. I then registered at Norwalk Community College as a Computer Science major and put all my effort into building my expertise through many school and personal projects. I look forward to many opportunities to use my skills in the exciting field of software development.
 </p>
-<button className='bg-[#565656] text-white px-10 py-3 rounded-3xl my-7 md:ml-3 block m-auto hover:bg-[#0088cc]'>Contact Me</button>
+<a href ="contact"><button className='bg-[#565656] text-white px-10 py-3 rounded-3xl my-7 md:ml-3 block m-auto hover:bg-[#0088cc]'>Contact Me</button></a>
         </div>
 
       </div>
