@@ -37,7 +37,7 @@ const Contact = () => {
       </form>
 
  {/* contact info side */}
- <div className='md:w-[40%] w-full md:h-[360px] h-auto mt-[20px] bg-gray-200  text-md pl-14 pt-14'>
+ <div className='md:w-[40%] w-full md:h-[360px] h-auto mt-[20px] bg-red-200  text-md pl-14 pt-14 rounded-xl'>
   <h2 className='font-bold text-xl'>Contact Information</h2>
   <a href='tel:+13474419148' ><h2 className='flex items-center my-3'><span className='mx-4'><MdPhoneIphone/></span>+13474419148</h2></a>
   <a href='mailto:SukanyaT2022A@gmail.com' target='_blank'><h2 className='flex items-center my-3'><span className='mx-4'><MdOutlineMailOutline/></span>SukanyaT2022A@gmail.com</h2></a>

@@ -5,6 +5,9 @@
 /* portfolio title on each page */
 
 /* base color bg-[#eeeeee] */
+*{
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
 html,body{
   overflow-x: hidden
 }
@@ -18,9 +21,17 @@ html,body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  /* footer social icon*/
+  /* .controlSocialIcon{
+    background: -webkit-linear-gradient(#ffc94b, #F17a7e)!important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+  } */
+
 /* Homepage */
   .bigHero{
-    background-image: url('https://images.unsplash.com/photo-1666891827481-8fbc6b5082fa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHxiYWNrZ3JvdW5kJTIwZGVzaWduJTIwYmx1ZSUyMHBpbmt8ZW58MHx8MHx8fDA%3D');
+    background-image: url('https://img.freepik.com/free-vector/peach-bubble-patterned-background_53876-90684.jpg?w=1800&t=st=1701860836~exp=1701861436~hmac=af14da1ec9a0bcb86c55e6d92ef2faadbb20638d735263d1332e25ea53b8a792');
   height: 70vh;
   background-repeat: no-repeat;
   width: 100%;

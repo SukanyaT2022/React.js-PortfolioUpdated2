@@ -4,6 +4,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import './Footer.css'
 const Footer = () => {
   return (
     <div>
@@ -13,20 +14,20 @@ const Footer = () => {
           <div class="sm:flex sm:items-center sm:justify-between flex-col">
             {/* social media */}
 
-            <ul class="flex flex-wrap items-center text-3xl space-x-5  font-medium text-gray-500 sm:mb-6 dark:text-gray-400 justify-center mt-3">
+            <ul class="flex flex-wrap items-center text-3xl space-x-5  font-medium sm:mb-6 justify-center mt-3 text-[#F17a7e] ">
               <li>
-                <a href="https://github.com/SukanyaT2022" target="_blank">
+                <a href="https://github.com/SukanyaT2022" target="_blank" className='controlSocialIcon'>
                   <FaGithub />
                 </a>
               </li>
               <li>
-                <FaTiktok />
+              <a href="" target="_blank" className='controlSocialIcon' > <FaTiktok /></a>
               </li>
               <li>
-                <FaFacebook />
+              <a href="" target="_blank" className='controlSocialIcon'> <FaFacebook /></a>
               </li>
               <li>
-                <FaInstagram />
+              <a href="" target="_blank" className='controlSocialIcon'> <FaInstagram /></a>
               </li>
             </ul>
 
@@ -72,6 +73,8 @@ const Footer = () => {
             . All Rights Reserved.
           </span>
         </div>
+
+        
       </footer>
     </div>
   );

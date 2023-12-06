@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.controlSocialIcon{
+    background: -webkit-linear-gradient(#ffc94b, #F17a7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
