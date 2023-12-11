@@ -14,7 +14,7 @@ const AboutMe = () => {
 
         {/* text side */}
         <div className='text-aboutme w-full md:w-[60%]  md:pr-36 md:pl-10 md:pt-24 md:pb-16 px-10'>
-<h2 className='font-bold md:text-2xl text-xl pb-5 text-[#565656]'>Who am I ? & What inspires me</h2>
+<h2 className='font-bold md:text-2xl text-xl pb-5 text-[#565656]'>Who am I ? What inspires me</h2>
 <p className='text-md text-[#565656]'>
 My background is in business analysis and investment, but I have always been curious about learning software development. I took a break from work for six years to raise my two children. Once my children started school, I had more time to pursue my real interest.
 

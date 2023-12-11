@@ -10,7 +10,7 @@ const Home = () => {
         <img src={myImg} />
       </div>
     <div className='text'>
-      <p>lIf you need to use a one-off background-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any</p>
+      <p>I have a passion for creating scalable front-end products that deliver exceptional user experiences. Crafting digital solutions that seamlessly blend aesthetics and functionality is where I thrive.</p>
       <a href ="contact"><button className='bg-[#F17a7e] py-2 px-5 rounded-3xl lg:mt-2 mt-5'>Contact Me</button></a>
       {/* lg means ipad air- md ipad mini - sm is phone */}
       </div>
