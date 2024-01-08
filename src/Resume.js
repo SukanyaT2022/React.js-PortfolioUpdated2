@@ -14,10 +14,10 @@ const Resume = () => {
       {/* below control both box --parent box*/}
 <div class="flex md:flex-row flex-col">
 
-  {/* left box */}
-  <div class="flex-initial md:w-[50%] lg:w-[30%] w-full bg-[#ffdbdc] p-4 space-y-2">
+  {/* top left box --pink box*/}
+  <div class="flex-initial md:w-[45%] lg:w-[30%] w-full py-7 bg-[#ffdbdc] lg:p-4 md:p-2 md:pt-5 space-y-2">
     {/* space -y-5 top and botton --- space-y-control all children */}
-   <h2 className='text-2xl font-bold mx-4'>TIPARPRON SUKANYA</h2>
+   <h2 className='text-2xl font-bold mx-4 text-center md:text-left'>TIPARPRON SUKANYA</h2>
 
    <div className='iconText flex items-center'>
 <div className='icon mx-4'><MdOutlineEmail/></div>
@@ -45,8 +45,8 @@ const Resume = () => {
    </div>
   </div>
 
-  {/* right Box */}
-  <div class="flex-initial md:w-[50%] lg:w-[70%] w-full  p-5 md:p-3 lg:p-5 flex items-center justify-center flex-col">
+  {/* top right Box */}
+  <div class="flex-initial md:w-[55%] lg:w-[70%] w-full  py-7 md:px-2 lg:p-5 flex items-center justify-center flex-col">
  <h3 className='text-2xl font-bold self-start ml-8'>FRONT-END DEVELOPER</h3>
  <p className='px-8 pt-4'>Motivated front-end developer. An associate degree in computer science, August 2023, Norwalk Community College. Two years of experience with web development at NCC and personal projects, and self-taught through FreeCodeCamp.com and w3school. Seeking to use proven skills in HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, OOP, React, Rest APIs, SQL, and PHP to help businesses reach their goals.</p>
   </div>
@@ -54,10 +54,10 @@ const Resume = () => {
 
 {/* part 2 */}
       {/* below control both box --parent box*/}
-      <div class="flex md:flex-row flex-col">
- {/* left box */}
- <div class="flex-initial md:w-[50%] lg:w-[30%] w-full bg-[#eeeeee]  px-14 pt-5 space-y-2">
-    <h3 className='font-bold'>SKILLS</h3>
+      <div class="flex md:flex-row flex-col md:pb-10">
+ {/* below left box */}
+ <div class="flex-initial md:w-[45%] lg:w-[30%] w-full bg-[#eeeeee]  px-14 pt-5 space-y-2 pb-7">
+    <h3 className='font-bold text-2xl text-center md:text-left mb-5'>SKILLS</h3>
     <h4 className='font-bold'>Soft Skills</h4>
     <ul className='skills'>
 <li>Communication Skills</li>
@@ -89,17 +89,15 @@ const Resume = () => {
 <p>Computer Science | GPA: 3.4</p>
 
 <h3 className='font-bold pt-5'>Long Island University </h3>
-<p>Brooklyn, New York • 06/2008 </p>
+<p>Brooklyn, New York</p>
 <p>MBA: Finance | GPA: 3.3 </p>
-
-
   </div>
 
 
 
-{/* right Box */}
-<div class="flex-initial md:w-[50%] lg:w-[70%] w-full pt-5 md:p-3 lg:px-14 flex flex-col space-y-2 lg:pb-24 ">
-   <h2 className='font-bold'>WORK HISTORY</h2>
+{/*bottom right Box */}
+<div class="flex-initial md:w-[55%] lg:w-[70%] w-full pt-5 md:px-7 lg:px-14 flex flex-col md:space-y-2 space-y-6  lg:pb-24 px-8 pb-7 ">
+   <h2 className='font-bold text-2xl text-center md:text-left mb-5'>WORK HISTORY</h2>
    <h3 className='font-bold'>Personal Projects - Personal Projects </h3>
    <p><em>Weston, CT • 01/2020 - Current</em></p>
    <ul className='skills space-y-3'>

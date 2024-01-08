@@ -8,12 +8,12 @@ const AboutMe = () => {
       <div className='main-aboutme flex md:flex-row flex-col'>
         {/* above we want phone col img on top text bottom
         md:flex for ipad computer side by side */}
-      <div className='img-aboutme w-full md:w-[40%]  p-16'>
-      <img src={myImg2} className='w-full md:h-[400px] h-[300px] object-cover md:pl-36 md:mt-10'/>
+      <div className='img-aboutme w-full  lg:w-[40%] md:w-[40%] lg:p-16 md:p-12 lg:pt-24 md:pt-24'>
+      <img src={myImg2} className='w-full lg:h-[400px] h-[300px] object-cover lg:pl-36 md:mt-10'/>
         </div>
 
         {/* text side */}
-        <div className='text-aboutme w-full md:w-[60%]  md:pr-36 md:pl-10 md:pt-24 md:pb-16 px-10'>
+        <div className='text-aboutme w-full lg:w-[60%] md:w-[60%]  lg:pr-36 lg:pl-10 lg:pt-24 md:pt-20 md:pb-16 lg:px-10 md:pr-14'>
 <h2 className='font-bold md:text-2xl text-xl pb-5 text-[#565656]'>Who am I ? What inspires me</h2>
 <p className='text-md text-[#565656]'>
 My background is in business analysis and investment, but I have always been curious about learning software development. I took a break from work for six years to raise my two children. Once my children started school, I had more time to pursue my real interest.

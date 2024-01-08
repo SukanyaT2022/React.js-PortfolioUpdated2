@@ -31,7 +31,8 @@ html,body{
 
 /* Homepage */
   .bigHero{
-    background-image: url('https://img.freepik.com/free-vector/peach-bubble-patterned-background_53876-90684.jpg?w=1800&t=st=1701860836~exp=1701861436~hmac=af14da1ec9a0bcb86c55e6d92ef2faadbb20638d735263d1332e25ea53b8a792');
+    /* background-image: url('https://img.freepik.com/free-vector/peach-bubble-patterned-background_53876-90684.jpg?w=1800&t=st=1701860836~exp=1701861436~hmac=af14da1ec9a0bcb86c55e6d92ef2faadbb20638d735263d1332e25ea53b8a792'); */
+    background-image: url("./Images/BgHome.jpg");
   height: 70vh;
   background-repeat: no-repeat;
   width: 100%;
@@ -61,11 +62,31 @@ margin-left: 50px;
   height: 70%;
   object-fit: cover;
  }
+
+/* resume page */
+
+.icon{
+  font-size: 20px;
+  background-color:#eeeeee;
+  padding: 10px;
+  border-radius: 100%;
+  }
+  .controlWholeLayout{
+  width: 90%;
+  margin: 50px auto;
+  }
+  /* skills section */
+  .skills{
+    list-style: disc;
+  
+  }
+
+
 /* ipad*/
 @media screen and (max-width:900px){
  /* homepage */
  .bigHero{
-height: 40vh;
+height: 50vh;
 }
 .text{
   width: 40%;
@@ -73,24 +94,7 @@ height: 40vh;
    }
 }
 
-/* resume page */
 
-.icon{
-font-size: 20px;
-background-color:#eeeeee;
-padding: 10px;
-border-radius: 100%;
-}
-.controlWholeLayout{
-width: 90%;
-margin: 50px auto;
-}
-/* skills section */
-.skills{
-  list-style: disc;
-
-}
-/* contact us page */
 
 
 
