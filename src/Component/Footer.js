@@ -1,9 +1,15 @@
 import React from 'react';
 import myLogo from '../Images/logo.png';
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaTwitter } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
+// import { FaXTwitter } from "react-icons/fa";
+// import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+// import { FaSquareXTwitter } from "react-icons/fa6";
+
+
 import './Footer.css'
 const Footer = () => {
   return (
@@ -28,6 +34,10 @@ const Footer = () => {
               </li>
               <li>
               <a href="" target="_blank" className='controlSocialIcon'> <FaInstagram /></a>
+              </li>
+              <li>
+                
+              <a href="" target="_blank" className='controlSocialIcon'> <FaXTwitter /></a>
               </li>
             </ul>
 
