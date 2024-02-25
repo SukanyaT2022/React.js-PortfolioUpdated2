@@ -138,15 +138,7 @@ export const dataReact = [
       'https://plus.unsplash.com/premium_photo-1679397743664-f9384e6ad49d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9uZXl8ZW58MHx8MHx8fDA%3D',
     alt: 'Money',
   },
-  {
-    id: '8p',
-    title: 'National Park Website',
-    detail: 'Built with: HTML & CSS, Bootstrap, and JavaScript',
-    myLink: 'https://ornate-cactus-5ee33c.netlify.app',
-    image:
-      'https://images.unsplash.com/photo-1651262450997-c27f6468f5ba?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0aW9uYWwlMjBwYXJrJTIweW9zZW1pdGl8ZW58MHx8MHx8fDA%3D',
-    alt: 'nationalPark',
-  },
+ 
   {
     id: '9p',
     title: 'Fruite Slider',

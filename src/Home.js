@@ -10,7 +10,7 @@ const Home = () => {
         <img src={myImg} />
       </div>
     <div className='text'>
-      <p>I have a passion for creating scalable front-end products that deliver exceptional user experiences. Crafting digital solutions that seamlessly blend aesthetics and functionality is where I thrive.</p>
+      <p>As a front-end developer, I'm driven by my passion for creating scalable products that seamlessly blend aesthetics with functionality, ultimately delivering exceptional user experiences.</p>
       <a href ="contact"><button className='bg-[#F17a7e] py-2 px-5 rounded-3xl lg:mt-5 mt-5 '>Contact Me</button></a>
       {/* lg means ipad air- md ipad mini - sm is phone */}
       </div>

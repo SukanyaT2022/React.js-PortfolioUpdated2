@@ -18,31 +18,41 @@ const AboutMe = () => {
         {/* text side */}
         <div className="text-aboutme w-full lg:w-[60%] md:w-[60%]  lg:pr-36 md:pr-14 lg:pl-10 lg:pt-24 md:pt-20 md:pb-16 lg:px-10 px-10">
           <h2 className="font-bold md:text-2xl text-xl pb-5 text-[#565656]">
-            Who am I ? What inspires me
+            Hey there!
           </h2>
           <p className="text-md text-[#565656]">
-            My background is in business analysis and investment, but I have
-            always been curious about learning software development. I took a
-            break from work for six years to raise my two children. Once my
-            children started school, I had more time to pursue my real interest.
-            One day, I read an article about a 50-year-old truck driver who
-            learned Python and became a software developer. That story inspired
-            me to start learning to code in many software languages and
-            frameworks such as HTML, CSS, Bootstrap, React, Java Script, and
-            SQL.
+            Let me share with you the exciting adventure I'm on! Transitioning
+            from number-crunching in the business world to immersing myself in
+            the realm of software development wasn't a walk in the park, but let
+            me tell you, it's been worth it! Imagine this: after dedicating six
+            incredible years to raising my kiddos, I found myself yearning for
+            something more. That's when I stumbled upon this incredibly
+            inspiring story about a truck driver who became a coding whiz at 50!
+            Talk about a lightbulb moment! I just knew I had to give it a try.
             <br />
-            <br />I first learned JavaScript from Free Code Camp, Udemy, and
-            YouTube. Specifically, I learned to become a front-end developer and
-            then improve my skills to be a fullstack develper. I had many ideas
-            that I wanted to try out, such as building blogs about agriculture,
-            a website and an app offering services and advice to busy and
-            working mothers, an e-commerce website to sell beach accessories,
-            and many more projects. After three months of self-teaching, I knew
-            what I would love to do for my future career. I then registered at
-            Norwalk Community College as a Computer Science major and put all my
-            effort into building my expertise through many school and personal
-            projects. I look forward to many opportunities to use my skills in
-            the exciting field of software development.
+            <br />
+            Armed with determination and fueled by curiosity, I dove headfirst
+            into learning all about HTML, CSS, Bootstrap, React, JavaScript,
+            SQL, and Swift. Thanks to amazing resources like Free Code Camp,
+            Udemy, and YouTube, I went from being a coding newbie to becoming a
+            front-end developer. In just six months of intense self-teaching,<br/> I
+            felt like I could conquer the world! But why stop there? I decided
+            to take the leap into formal education, enrolling in computer
+            science classes at Norwalk Community College.
+            <br />
+            <br />
+            I'm an adaptable and driven professional with a passion for software
+            development. I have experience building responsive commercial
+            websites and iOS apps. Additionally, I'm proficient with frameworks
+            like Bootstrap and React, enabling me to create dynamic and
+            user-friendly interfaces. I've honed my skills across the entire
+            development process, from gathering requirements and designing
+            pseudocode to coding, optimizing webpages, and debugging.
+            <br />
+            <br />
+            I'm actively seeking opportunities to leverage my diverse skill set
+            and continue to grow within the field of software development. Let's
+            connect and explore the possibilities together!
           </p>
           <a href="contact">
             <button className="bg-[#565656] text-white px-10 py-3 rounded-3xl my-7 md:ml-3 block m-auto hover:bg-[#0088cc]">
