@@ -8,15 +8,15 @@ const AboutMe = () => {
       <div className="main-aboutme flex md:flex-row flex-col">
         {/* above we want phone col img on top text bottom
         md:flex for ipad computer side by side */}
-        <div className="img-aboutme w-3/4 m-auto  lg:w-[40%] md:w-[40%] lg:p-16 md:p-12 lg:pt-24 md:pt-24 pt-14 pb-14">
+        <div className="img-aboutme w-3/4 m-auto  lg:w-[40%] md:w-[40%] lg:p-16 md:p-12 lg:pt-0 md:pt-24 pt-14 pb-14 lg:pl-36">
           <img
             src={myImg2}
-            className="w-full lg:h-[400px] h-[300px] object-cover lg:pl-36 md:mt-10"
+            className="lg:w-[350px] md:w-[300px] w-[200px] lg:h-[350px]  md:h-[300px] h-[200px]  object-cover  md:mt-0 rounded-full"
           />
         </div>
 
         {/* text side */}
-        <div className="text-aboutme w-full lg:w-[60%] md:w-[60%]  lg:pr-36 md:pr-14 lg:pl-10 lg:pt-24 md:pt-20 md:pb-16 lg:px-10 px-10">
+        <div className="text-aboutme w-full lg:w-[60%] md:w-[60%]  lg:pr-36 md:pr-14 lg:pl-10 lg:pt-24 md:pt-20 pt-0 md:pb-16 lg:px-10 px-10">
           <h2 className="font-bold md:text-2xl text-xl pb-5 text-[#565656]">
             Hey there!
           </h2>
