@@ -35,7 +35,7 @@ const AboutMe = () => {
             into learning all about HTML, CSS, Bootstrap, React, JavaScript,
             SQL, and Swift. Thanks to amazing resources like Free Code Camp,
             Udemy, and YouTube, I went from being a coding newbie to becoming a
-            front-end developer. In just six months of intense self-teaching,<br/> I
+            front-end developer. In just six months of intense self-teaching, I
             felt like I could conquer the world! But why stop there? I decided
             to take the leap into formal education, enrolling in computer
             science classes at Norwalk Community College.
