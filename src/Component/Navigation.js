@@ -39,14 +39,14 @@ function classNames(...classes) {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center xl:items-stretch xl:justify-start">
+              <div className="flex flex-1 items-center justify-center  lg:items-stretch lg:justify-center  xl:items-stretch xl:justify-start">
                 {/* targetLogo */}
-                <div className="flex flex-shrink-0 items-center">
+                <div className="flex flex-shrink-0 items-center ">
                   <a href='/'><img
-                    className="h-14 w-auto"
+                    className="h-14 w-auto lg:pl-48 xl:pl-0"
                     src={myLogo}
                     alt="logo"
-                  /></a>
+                    /></a>
                 </div>
                 <div className="hidden lg:ml-6 xl:block">
 
