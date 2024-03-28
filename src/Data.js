@@ -1,7 +1,16 @@
 export const dataPortfolio = [
   {
+    id: '11p',
+    title: 'Custom Website Design',
+    detail: 'Built with: JavaScript, DynamicHTML, HTML & CSS',
+    myLink: 'https://java-script-customize-web-page-o9ct.vercel.app/',
+    image:
+      'https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dXNlJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D',
+    alt: 'a small brown dog uses computer',
+  },
+  {
     id: '1p',
-    title: 'Ecommerce Farm Websites',
+    title: 'E-commerce Farm Websites',
     detail: 'Built with: HTML & CSS, jQuery, and Bootstrap',
     myLink: 'https://bootstrap-farm-project.vercel.app/',
     image:
@@ -84,6 +93,15 @@ export const dataPortfolio = [
 ];
 
 export const dataReact = [
+  {
+    id: '15p',
+    title: 'Anti-Bully Blog',
+    detail: 'Built with: React, JavaScript, HTML, CSS,and TailwindCSS',
+    myLink: 'https://react-js-anti-bully-blog.vercel.app/',
+    image:
+      'https://images.unsplash.com/photo-1572670014853-1d3a3f22b40f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3RvcHxlbnwwfHwwfHx8MA%3D%3D',
+    alt: 'Stop Sign',
+  },
   {
     id: '1p',
     title: 'Kids Designer Clothes',
@@ -223,7 +241,7 @@ export const dataSwift = [
     id: '3p',
     title: 'Expense Tracker APP',
     detail: 'Built with: Swift',
-    myLink: 'https://github.com/SukanyaT2022/Swift-expenseTracker.git',
+    myLink: 'https://react-js-anti-bully-blog.vercel.app/',
     image:
       'https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV4cGVuc2UlMjB0cmFja2VyfGVufDB8fDB8fHww',
     alt: 'calculator',
@@ -237,6 +255,17 @@ export const dataSwift = [
       'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     alt: 'register desk',
   },
+  {
+    id: '5p',
+    title: 'E-Commerce Website',
+    detail: 'Built with: Swift',
+    myLink: '  https://github.com/SukanyaT2022/Swift-eCommerce.git',
+    image:
+      'https://plus.unsplash.com/premium_photo-1683796112978-fa4b9fa79e58?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b25saW5lJTIwc2hvcHBpbmd8ZW58MHx8MHx8fDA%3D',
+    alt: 'shopping baskets',
+  },
+
+
   
  
 ];
