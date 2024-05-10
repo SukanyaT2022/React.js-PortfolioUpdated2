@@ -3,10 +3,10 @@ import './Card.css';
 
 const Card = ({ data }) => {
   return (
-    <div >
+    <div>
       {data.map((val) => {
         return (
-          <div key={val.id} >
+          <div key={val.id}>
             {/* {val.title}
   {val.detail}
    {val.myLink}

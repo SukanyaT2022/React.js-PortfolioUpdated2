@@ -1,6 +1,8 @@
 import React from 'react'
 import myImg from './Images/sukanyaBGremove.png'
-
+import ServiceHome from './Component/ServiceHome'
+import ReviewHome from './Component/ReviewHome'
+import FaqsHome from './Component/FaqsHome'
 const Home = () => {
   return (
     <div>
@@ -10,12 +12,17 @@ const Home = () => {
         <img src={myImg} />
       </div>
     <div className='text'>
-      <p>As a front-end developer, I'm driven by my passion for creating scalable products that seamlessly blend aesthetics with functionality, ultimately delivering exceptional user experiences.</p>
-      <a href ="contact"><button className='bg-[#F17a7e] py-2 px-5 rounded-3xl lg:mt-5 mt-5 '>Contact Me</button></a>
+      <p>As a front-end developer and iOS mobile developer, I specialize in collaborating with businesses to enhance mobile app development, web development, UI/UX design, and various software development projects aimed at improving usability and user experience.</p>
+      <a href ="contact"><button className='bg-[#F17a7e] py-2 px-5 rounded-3xl lg:mt-5 mt-5 text-white'>Contact Me</button></a>
       {/* lg means ipad air- md ipad mini - sm is phone */}
       </div>
   
       </div>
+
+{/* service section */}
+      <ServiceHome/>
+      <ReviewHome/>
+      <FaqsHome/>
     </div>
   )
 }
