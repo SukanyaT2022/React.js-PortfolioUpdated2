@@ -16,7 +16,7 @@ const ServiceHome = () => {
   return (
     // services
     <div className="wrapper-service w-[90%] mx-auto my-5">
-      <h1 className="md:text-3xl  text-[22px] md:my-20 my-10 md:font-semibold font-bold text-center">
+      <h1 className="md:text-3xl  text-[22px] md:my-20 my-10 md:font-semibold font-bold text-center text-[#1D1D1F]">
         Front-End Development Services
       </h1>
       {/* mainbox */}
@@ -31,8 +31,11 @@ const ServiceHome = () => {
           </div>
           <div className="p-5">
             <a href="#">
-              <h3 className="mb-2 text-xl font-semibold tracking-tight">
-                HTML & CSS Responsive Web Design
+              <h3 className=" text-lg font-semibold tracking-tight">
+                HTML & CSS 
+              </h3>
+              <h3 className="mb-2 text-lg font-semibold tracking-tight">
+            Responsive Web Design
               </h3>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 ">
@@ -52,7 +55,7 @@ const ServiceHome = () => {
           </div>
           <div className="p-5">
             <a href="#">
-              <h3 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#1D1D1F] dark:text-white">
                 Javascript Development
               </h3>
             </a>
@@ -74,7 +77,7 @@ const ServiceHome = () => {
           </div>
           <div className="p-5">
             <a href="#">
-              <h3 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#1D1D1F] dark:text-white">
                 React JS Development
               </h3>
             </a>
@@ -98,7 +101,7 @@ const ServiceHome = () => {
           </div>
           <div className="p-5">
             <a href="#">
-              <h3 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#1D1D1F] dark:text-white">
                 Swift iOS Mobile Development
               </h3>
             </a>
@@ -123,7 +126,7 @@ const ServiceHome = () => {
 </div>
 {/* text  div*/}
 <div className='md:pr-16 px-5'>
-<h2 className="md:text-2xl  text-xl md:text-left text-center font-semibold  lg:mb-2 md:mb-5 mb-5">Get Help For Strong Digital Presence of Your Business</h2>
+<h2 className="md:text-xl  text-xl md:text-left text-center font-semibold  lg:mb-2 md:mb-5 mb-5">Get Help For Strong Digital Presence of Your Business</h2>
   {/* <p className='leading-7'>
   We prioritize our clients' needs and work closely with them throughout the development process. Our goal is to deliver a website that not only meets but exceeds your expectations. From planning to launch and beyond, we manage every aspect of web development, allowing you to focus on your core business. Our transparent and efficient process ensures a hassle-free experience.</p>
    */}
@@ -311,10 +314,14 @@ md:w-[300px] w-[250px]
       </div>
       {/* end service get quote bg-[#F1797E]  hover:bg-white hover:border-2 hover:border-[#4AA6E9] hover:text-[#4AA6E9] */}
 
+
+
 {/* start last section here why choose company services */}
+
+
 <div className="mainProcess bg-white py-16 md:mt-14  mt-10 rounded-3xl ">
-<h2 className="text-3xl font-semibold  lg:mb-2 md:mb-5 mb-5 text-center">Why us?</h2>
-  <p className=' md:text-center text-left md:pl-0 px-3 mb-10 text-lg '>
+<h2 className="text-3xl font-semibold  lg:mb-7 md:mb-5 mb-5 text-center">Why us?</h2>
+  <p className=' md:text-center text-left md:pl-0 px-3 mb-10 text-xl '>
   We prioritize our clients' needs and work closely with them throughout the development process. 
 </p>
 

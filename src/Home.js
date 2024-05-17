@@ -11,7 +11,7 @@ const Home = () => {
   <div className='myImage'>
         <img src={myImg} />
       </div>
-    <div className='text'>
+    <div className='text text-[#1D1D1F]'>
       <p>
       Looking for web developer services. You're in the right place!  As a freelancer, I'm here to bring your online dreams to life. With years of experience and a passion for coding, I'll create a website that stands out from the crowd. Whether you're a small business or a budding entrepreneur, I've got you covered. Let's work together to build something amazing! Reach out today to get started on your digital journey.
       </p>
