@@ -40,7 +40,7 @@ const Card = ({ data }) => {
                 <a
                   href={val.myLink}
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-center
-                   text-white bg-[#4A6163] rounded-lg hover:bg-[#F9A66C] focus:ring-4 
+                   text-white bg-[#4A6163] rounded-lg hover:bg-gradient-to-r from-[#F1797E]  to-[#FFB697]  focus:ring-4 
                    focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700
                     dark:focus:ring-blue-800 w-40"
                 >

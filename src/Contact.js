@@ -33,7 +33,8 @@ const Contact = () => {
               <textarea name="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave your message..."></textarea>
           </div>
           {/* <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button> */}
-          <button type="submit" className='bg-[#565656] text-white px-10 py-3 rounded-3xl my-7 lg:ml-3  block m-auto hover:bg-[#0088cc]'>Submit</button>
+          <button type="submit" className=' bg-gradient-to-r from-[#F1797E]  to-[#FFB697] 
+hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-2 hover:border-[#F1797E] hover:text-[#F1797E] text-white px-10 py-3 rounded-3xl my-7 lg:ml-3  block m-auto '>Submit</button>
       </form>
 
  {/* contact info side */}

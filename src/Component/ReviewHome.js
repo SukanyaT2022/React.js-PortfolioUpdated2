@@ -38,9 +38,9 @@ const ReviewHome = () => {
     setIndex(checkNumber(randomNumber));
   }
 
-  return<article className="review lg:my-14 rounded-lg w-[90%] ">
+  return<article className="review lg:my-14 rounded-3xl w-[90%] ">
     <h2 className='targetHeaderReview'>What people are saying about us</h2>
-    <div className='wrapImgInfo'>
+    <div className='wrapImgInfo '>
     <div className="img-container">
       <img src={image} alt={name} className="person-img"/>
       <span className="quote-icon">
@@ -49,7 +49,7 @@ const ReviewHome = () => {
       </div>
       <h4 className="author">{name}</h4>
       <p className="job">{job}</p>
-      <p className="info">{text}</p>
+      <p className="info text-left ">{text}</p>
       <div className="button-container">
         <button className="prev-btn" onClick={prevPerson}>
           <FaChevronLeft />
