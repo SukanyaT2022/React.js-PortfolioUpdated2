@@ -17,9 +17,9 @@ const AboutMe = () => {
 
         {/* text side */}
         <div className="text-aboutme w-full lg:w-[60%] md:w-[60%]  lg:pr-36 md:pr-14 lg:pl-10 lg:pt-24 md:pt-20 pt-0 md:pb-16 lg:px-10 px-10">
-          {/* <h2 className="font-bold md:text-2xl text-xl pb-5 text-[#565656]">
-            Hey there!
-          </h2> */}
+          <h2 className="font-bold md:text-2xl text-xl pb-5 text-[#565656]">
+         Nice to meet you!
+          </h2>
           <p className="text-md text-[#565656]">
           Welcome to my journey! I switched from the business world to web development, and it's been amazing. After six years of raising my kids, I wanted a new challenge. Inspired by a story about a truck driver who learned to code at 50, I decided to dive into software development.
 
