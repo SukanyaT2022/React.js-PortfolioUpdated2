@@ -26,6 +26,7 @@ const Home = () => {
       <ServiceHome/>
       <ReviewHome/>
       <FaqsHome/>
+      <p>Text</p>
     </div>
   )
 }
