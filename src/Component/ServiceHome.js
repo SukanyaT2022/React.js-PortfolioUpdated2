@@ -20,9 +20,9 @@ const ServiceHome = () => {
         Front-End Development Services
       </h1>
       {/* mainbox */}
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-7 gap-5">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:gap-7 gap-5">
         {/* smallbox */}
-        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow lg:pt-5 md:pt-10 pt-10 text-black  hover:border-[#4AA6E9]">
+        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20 md:pt-10 pt-10 text-black  hover:border-[#4AA6E9]">
           <div className=" md:h-[20%] h-auto flex items-center py-5">
             <img
               src={responsiveWebImg}
@@ -49,7 +49,7 @@ const ServiceHome = () => {
         </div>
 
         {/* box 2 middle  */}
-        <div className="customFendServices bg-white border border-gray-200 rounded-3xl shadow lg:pt-5 md:pt-10 pt-10  text-black  hover:border-[#4AA6E9]">
+        <div className="customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9]">
           <div className=" md:h-[20%] h-auto py-2">
             <img src={JSimage} className="w-[50%] h-full mx-auto" />
           </div>
@@ -68,7 +68,7 @@ const ServiceHome = () => {
           </div>
         </div>
         {/* box 3 right */}
-        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow lg:pt-5 md:pt-10 pt-10  text-black   hover:border-[#4AA6E9]">
+        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black   hover:border-[#4AA6E9]">
           <div className=" md:h-[20%] h-auto py-2">
             <img
               src={reactIMG}
@@ -92,7 +92,7 @@ const ServiceHome = () => {
         </div>
 
         {/* box 4 right */}
-        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow lg:pt-5 md:pt-10 pt-10  text-black  hover:border-[#4AA6E9]">
+        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9]">
           <div className=" h-[20%] py-2">
             <img
               src={mobileImg}
@@ -228,7 +228,7 @@ md:w-[300px] w-[250px]
       {/* end process */}
 
 
-      {/* start service  get quote */}
+      {/* Det start today - start service  get quote */}
       {/* wrapper belowmainprocess in css for shadow custom */}
       <div className="mainProcess bg-white py-10 md:mt-14  mt-10 rounded-3xl">
         <h2 className="text-3xl font-semibold text-center lg:mb-10 md:mb-5 mb-5">
@@ -236,7 +236,7 @@ md:w-[300px] w-[250px]
         </h2>
 
         {/* mainbox control all 4 box */}
-        <div className="mainBoxProcess grid lg:grid-cols-4 md:grid-cols-2 gap-2 px-10">
+        <div className="mainBoxProcess grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 gap-2 px-10">
 
           {/*small  box 1 for contact section */}
           <div className="smallBoxProcess lg:p-5 md:p-10 px-10 py-6 lg:h-[350px]">

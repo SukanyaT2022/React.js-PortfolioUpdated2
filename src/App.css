@@ -27,10 +27,6 @@ transition: all 0.5s;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-
-
-
-
 .controlWholeLayout {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -40,8 +36,6 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
 
 /* Homepage */
 .bigHero {
@@ -57,8 +51,15 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   justify-content: center;
 }
 .text {
-  width: 32%;
-  margin-left: 50px;
+  width: 50%;
+
+}
+.text p{
+  margin-left: 80px;
+  line-height: 25px;
+}
+.text a{
+  margin-left: 80px;
 }
 .myImage {
   width: 300px;
@@ -68,6 +69,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 180px;
 }
 .myImage img {
   width: 70%;
@@ -432,16 +434,36 @@ main {
     line-height: 1;
   }
 }
-/* review slider media query */
-@media screen and (min-width: 992px) {
+/* review slider media query --ipad pro*/
+@media screen and (min-width: 1024px) {
+ /* homepage */
+ .bigHero {
+  height: 45vh;
+}
+.text {
+  width: 40%;
+  margin-left: 50px;
+}
+
+.text p{
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.myImage {
+  margin-left: 0px;
+} 
+}
+
+
+
+
+/* ipad air */
+@media screen and (max-width: 900px) {
   .section {
     width: 95vw;
   }
   
-}
-
-/* ipad*/
-@media screen and (max-width: 900px) {
   /* homepage */
   .bigHero {
     height: 50vh;
@@ -450,6 +472,16 @@ main {
     width: 40%;
     margin-left: 50px;
   }
+
+  .text p{
+    margin-left: 0px;
+    line-height: 25px;
+  }
+
+  .myImage {
+    margin-left: 0px;
+  }
+
   /* about me page */
   .img-aboutme {
     margin-top: 50px !important;

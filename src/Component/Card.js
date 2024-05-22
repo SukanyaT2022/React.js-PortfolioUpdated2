@@ -3,7 +3,7 @@ import './Card.css';
 
 const Card = ({ data }) => {
   return (
-    <div>
+    <div className='px-2'>
       {data.map((val) => {
         return (
           <div key={val.id}>
@@ -15,7 +15,7 @@ const Card = ({ data }) => {
 
             <a
               href={val.myLink}
-              class="flex flex-col items-center  bg-red-200 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-2xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 m-auto md:my-8 my-14"
+              class="flex flex-col items-center  bg-red-200 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-2xl hover:bg-gray-100 m-auto md:my-8 my-14"
             >
               {/* above my add margin top botttom on each individulae box */}
               <img
@@ -26,12 +26,12 @@ const Card = ({ data }) => {
               {/*change size destop change md number if custum put []*/}
 
               <div class="flex flex-col justify-between p-4 leading-normal">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   {' '}
                   {val.title}
                 </h5>
 
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p class="mb-3 font-normal text-gray-700">
                   {' '}
                   {val.detail}
                 </p>
@@ -41,8 +41,7 @@ const Card = ({ data }) => {
                   href={val.myLink}
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-center
                    text-white bg-[#4A6163] rounded-lg hover:bg-gradient-to-r from-[#F1797E]  to-[#FFB697]  focus:ring-4 
-                   focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700
-                    dark:focus:ring-blue-800 w-40"
+                   focus:outline-none focus:ring-blue-300 w-40"
                 >
                   View
                   <svg
