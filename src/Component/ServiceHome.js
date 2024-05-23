@@ -9,6 +9,13 @@ import costEstimateIMG from '../Images/costIMG.svg';
 import lunchProjectIMG from '../Images/lunchProjectIMG.svg';
 
 import { FaArrowRightLong } from 'react-icons/fa6';
+import { FaCheck } from "react-icons/fa";
+import { GrDirections } from "react-icons/gr";
+import { PiCubeTransparent } from "react-icons/pi";
+import { BiSolidMedal } from "react-icons/bi";
+import { RiMoneyDollarCircleLine } from "react-icons/ri";
+import { FaCommentsDollar } from "react-icons/fa6";
+import { GiReceiveMoney } from "react-icons/gi";
 
 // https://www.toptal.com/services/front-end-development
 
@@ -22,7 +29,8 @@ const ServiceHome = () => {
       {/* mainbox */}
       <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:gap-7 gap-5">
         {/* smallbox */}
-        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20 md:pt-10 pt-10 text-black  hover:border-[#4AA6E9]">
+        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20 
+        xl:h-[500px] lg:h-[450px] md:pt-10 pt-10 text-black  hover:border-[#4AA6E9]">
           <div className=" md:h-[20%] h-auto flex items-center py-5">
             <img
               src={responsiveWebImg}
@@ -49,7 +57,7 @@ const ServiceHome = () => {
         </div>
 
         {/* box 2 middle  */}
-        <div className="customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9]">
+        <div className="customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9] xl:h-[500px] lg:h-[450px]">
           <div className=" md:h-[20%] h-auto py-2">
             <img src={JSimage} className="w-[50%] h-full mx-auto" />
           </div>
@@ -68,7 +76,7 @@ const ServiceHome = () => {
           </div>
         </div>
         {/* box 3 right */}
-        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black   hover:border-[#4AA6E9]">
+        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black   hover:border-[#4AA6E9] xl:h-[500px] lg:h-[450px]">
           <div className=" md:h-[20%] h-auto py-2">
             <img
               src={reactIMG}
@@ -92,7 +100,7 @@ const ServiceHome = () => {
         </div>
 
         {/* box 4 right */}
-        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9]">
+        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9] xl:h-[500px] lg:h-[450px]">
           <div className=" h-[20%] py-2">
             <img
               src={mobileImg}
@@ -330,8 +338,8 @@ md:w-[300px] w-[250px]
 
   {/* wrap individuale circle and text */}
 <div className='flex items-center '>
-  <div className=' w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
-  <img src={JSimage} className='w-full object-cover'/>
+  <div className='  text-white text-4xl w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
+  <FaCheck />
   </div>
 <p className='ml-5'>Result-oriented</p>
 </div>
@@ -339,8 +347,8 @@ md:w-[300px] w-[250px]
 
   {/* wrap individuale circle and text */}
   <div className='flex items-center'>
-  <div className=' w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
-  <img src={JSimage} className='w-full object-cover'/>
+  <div className=' text-white text-4xl  w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
+  <GrDirections />
   </div>
 <p className='ml-5 '>Flexible</p>
 </div>
@@ -348,8 +356,8 @@ md:w-[300px] w-[250px]
 
   {/* wrap individuale circle and text */}
   <div className='flex items-center '>
-  <div className=' w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
-  <img src={JSimage} className='w-full object-cover'/>
+  <div className='  text-white text-4xl w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
+  <PiCubeTransparent />
   </div>
 <p className='ml-5'>Transparent</p>
 </div>
@@ -357,8 +365,8 @@ md:w-[300px] w-[250px]
 
   {/* wrap individuale circle and text */}
   <div className='flex items-center'>
-  <div className=' w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
-  <img src={JSimage} className='w-full object-cover'/>
+  <div className='  text-white text-4xl w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
+  <BiSolidMedal />
   </div>
 <p className='ml-5'>Experienced</p>
 </div>
@@ -366,8 +374,8 @@ md:w-[300px] w-[250px]
 
   {/* wrap individuale circle and text */}
   <div className='flex items-center'>
-  <div className=' w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
-  <img src={JSimage} className='w-full object-cover'/>
+  <div className=' text-white text-4xl  w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
+  <GiReceiveMoney />
   </div>
 <p className='ml-5'>Cost-effective solutions</p>
 </div>
@@ -375,8 +383,8 @@ md:w-[300px] w-[250px]
 
   {/* wrap individuale circle and text */}
   <div className='flex items-center '>
-  <div className=' w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
-  <img src={JSimage} className='w-full object-cover'/>
+  <div className=' text-white text-4xl w-[70px] h-[70px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center' >
+  <FaCommentsDollar />
   </div>
 <p className='ml-5'>Reasonable Rates</p>
 </div>
