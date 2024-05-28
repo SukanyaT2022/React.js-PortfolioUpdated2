@@ -1,5 +1,5 @@
 import React from 'react';
-import myImg2 from './Images/myImage.JPG';
+import myImg2 from './Images/SukanyaT33 copy.webp';
 
 const AboutMe = () => {
   return (

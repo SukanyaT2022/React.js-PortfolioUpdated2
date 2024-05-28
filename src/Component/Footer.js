@@ -1,5 +1,5 @@
 import React from 'react';
-import myLogo from '../Images/logo.png';
+import myLogo from '../Images/logo.webp';
 import { FaFacebook, FaTwitter } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';

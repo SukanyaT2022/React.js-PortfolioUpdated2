@@ -1,5 +1,5 @@
 import React from 'react'
-import myImg from './Images/sukanyaBGremove.png'
+// import myImg from './Images/sukanyaBGremove.png'
 import { MdOutlineEmail} from "react-icons/md";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { RiHome5Fill } from "react-icons/ri";

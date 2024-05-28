@@ -329,8 +329,8 @@ md:w-[300px] w-[250px]
 
 <div className="mainProcess bg-white py-16 md:mt-14  mt-10 rounded-3xl ">
 <h2 className="text-3xl font-semibold  lg:mb-7 md:mb-5 mb-5 text-center">Why us?</h2>
-  <p className=' md:text-center text-left md:pl-0 px-3 mb-10 text-xl '>
-  We prioritize our clients' needs and work closely with them throughout the development process. 
+  <p className=' md:text-center  text-left  md:px-10  px-5 mb-10 md:text-xl text-lg '>
+  We prioritize our clients' needs and work closely throughout the development process. 
 </p>
 
 {/* main - wrap all circle and text */}
