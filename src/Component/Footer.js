@@ -1,10 +1,11 @@
 import React from 'react';
 import myLogo from '../Images/logo.webp';
-import { FaFacebook, FaTwitter } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 // import { FaXTwitter } from "react-icons/fa";
 // import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 // import { FaSquareXTwitter } from "react-icons/fa6";
@@ -30,7 +31,7 @@ const Footer = () => {
               <a href="" target="_blank" className='controlSocialIcon' > <FaTiktok /></a>
               </li>
               <li>
-              <a href="" target="_blank" className='controlSocialIcon'> <FaFacebook /></a>
+              <a href="https://www.linkedin.com/in/tiparpron-sukanya/" target="_blank" className='controlSocialIcon'> <FaLinkedin /></a>
               </li>
               <li>
               <a href="" target="_blank" className='controlSocialIcon'> <FaInstagram /></a>
