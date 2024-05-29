@@ -86,7 +86,7 @@ const Resume = () => {
 
 <h2 className='font-bold mt-5'>EDUCATION</h2>
 <h3 className='font-bold'>Norwalk Community College</h3>
-<p>Norwalk, CT • 08/2023 </p>
+<p>Norwalk, CT 2023</p>
 <h3>Associate of Science</h3>
 <p>Computer Science | GPA: 3.4</p>
 
