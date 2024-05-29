@@ -35,6 +35,7 @@ const ServiceHome = () => {
             <img
               src={responsiveWebImg}
               className="lg:w-[50%] md:w-[40%] w-[35%] object-cover mx-auto"
+              alt='women computer ipad phone responsive website'
             />
           </div>
           <div className="p-5">
@@ -59,7 +60,7 @@ const ServiceHome = () => {
         {/* box 2 middle  */}
         <div className="customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9] xl:h-[500px] lg:h-[450px]">
           <div className=" md:h-[20%] h-auto py-2">
-            <img src={JSimage} className="w-[50%] h-full mx-auto" />
+            <img src={JSimage} className="w-[50%] h-full mx-auto" alt='js html css'/>
           </div>
           <div className="p-5">
             <a href="#">
@@ -81,6 +82,7 @@ const ServiceHome = () => {
             <img
               src={reactIMG}
               className="w-[50%] h-full mx-auto object-contain"
+              alt='react js logo'
             />
           </div>
           <div className="p-5">
@@ -105,6 +107,7 @@ const ServiceHome = () => {
             <img
               src={mobileImg}
               className="w-[50%] h-full object-contain mx-auto"
+              alt='man phone'
             />
           </div>
           <div className="p-5">
@@ -130,7 +133,7 @@ const ServiceHome = () => {
 <div className="mainProcess bg-white py-16 md:mt-14  mt-10 rounded-3xl grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 ">
 {/* image  div*/}
 <div className='flex items-center justify-center md:mb-0 mb-5'>
-  <img src={JSimage} className='w-[50%] '/>
+  <img src={JSimage} className='w-[50%]' alt='js css html'/>
 </div>
 {/* text  div*/}
 <div className='md:pr-16 px-5'>
@@ -251,7 +254,7 @@ md:w-[300px] w-[250px]
 
             {/* image section div- box for number and arrow below */}
             <div className="flex items-center space-x-2 md:mb-10 mb-5 lg:h-[50%]">         
-<img src={phone} className='h-[100px] object-cover'/>
+<img src={phone} className='h-[100px] object-cover' alt='phone chat'/>
               <FaArrowRightLong className="text-3xl" />
             </div>
             
@@ -271,7 +274,7 @@ md:w-[300px] w-[250px]
 
                        {/* box for number and arrow below */}
                        <div className="flex items-center space-x-2 md:mb-10 mb-5 lg:h-[50%]">           
-<img src={consultPinkImg} className='h-[100px] object-cover'/>
+<img src={consultPinkImg} className='h-[100px] object-cover' alt='a team talks'/>
               <FaArrowRightLong className="text-3xl" />
             </div>
             <div className='lg:h-[30%]'>
@@ -287,7 +290,7 @@ md:w-[300px] w-[250px]
           <div className="smallBoxProcess lg:p-5 md:p-10 px-10 py-6 lg:h-[350px]">
              {/* box for number and arrow below */}
              <div className="flex items-center space-x-2 md:mb-10 mb-5 lg:h-[50%]">       
-<img src={ costEstimateIMG} className='h-[120px] object-cover'/>
+<img src={ costEstimateIMG} className='h-[120px] object-cover' alt='dollar sign'/>
               <FaArrowRightLong className="text-3xl" />
             </div>
 
@@ -303,7 +306,7 @@ md:w-[300px] w-[250px]
           <div className="smallBoxProcess lg:p-5 md:p-10 px-10 py-6 lg:h-[350px]">
               {/* box for number and arrow below */}
               <div className="flex items-center space-x-2 md:mb-10 mb-5 lg:h-[50%]">        
-<img src={ lunchProjectIMG} className='h-[100px] object-cover'/>
+<img src={ lunchProjectIMG} className='h-[100px] object-cover' alt='rocket'/>
               <FaArrowRightLong className="text-3xl" />
             </div>
             <div className='lg:h-[30%]'>

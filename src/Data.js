@@ -1,3 +1,7 @@
+import women from '../src/Images/women.webp'; 
+import women4 from '../src/Images/women4.webp'; 
+import women6 from '../src/Images/women6.webp'; 
+import man3 from '../src/Images/man3.webp'; 
 export const dataPortfolio = [
   {
     id: '11p',
@@ -259,7 +263,7 @@ export const dataSwift = [
     id: '5p',
     title: 'E-Commerce Website',
     detail: 'Built with: Swift',
-    myLink: '  https://github.com/SukanyaT2022/Swift-eCommerce.git',
+    myLink: 'https://github.com/SukanyaT2022/Swift-eCommerce.git',
     image:
       'https://plus.unsplash.com/premium_photo-1683796112978-fa4b9fa79e58?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b25saW5lJTIwc2hvcHBpbmd8ZW58MHx8MHx8fDA%3D',
     alt: 'shopping baskets',
@@ -273,37 +277,38 @@ export const reviews = [
     id: 1,
     name: 'Susan S.',
     job: 'Business Owner',
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+    image: women,
     text:
       "Working with Tip was a game-changer for our business. They transformed our outdated website into a modern, user-friendly experience. The attention to detail and creativity brought to our project exceeded our expectations. Their technical expertise ensured our site was not only beautiful but also highly functional. We saw a significant increase in user engagement and positive feedback from our customers.",
+      alt: 'Spanish woman'
   },
   {
     id: 2,
     name: 'Anna J.',
     job: 'Web Designer',
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg',
+    image: women4,
     text:
-      "The team is the epitome of professionalism. Throughout our project, they communicated clearly, met every deadline, and went above and beyond to ensure we were satisfied with the results. Their ability to translate our vision into a sleek, responsive website was impressive. I highly recommend their services to anyone in need of a skilled front-end developer.",
+      "Throughout our project, they communicated clearly, met every deadline, and went above and beyond to ensure we were satisfied with the results. Their ability to translate our vision into a sleek, responsive website was impressive. I highly recommend their services to anyone in need of a skilled front-end developer.",
+      alt: 'Asian woman'
   },
   {
     id: 3,
     name: 'Peter K.',
     job: 'Entrepreneur',
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+    image: man3,
     text:
     "We hired this team to work on  our e-commerce platform, and the results were outstanding. They focused on creating a seamless user experience, which significantly boosted our conversion rates. Their understanding of UX/UI principles and ability to implement them effectively is unparalleled. We couldn’t be happier with the new look and functionality of our site.",
+    alt: 'American man'
   },
   {
     id: 4,
-    name: 'Anderson A',
+    name: 'Jennifer A',
     job: 'Business Owner',
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
+     women6,
     text:
     "Tip brought a perfect blend of creativity and technical excellence to our project. They have a knack for understanding client needs and translating them into beautiful, interactive designs. The performance and aesthetics of our website have greatly improved, attracting more visitors and enhancing user satisfaction. Their passion for front-end development is evident in every detail of their work.",
+    alt: 'blond hair woman'
   },
 ];
 export default reviews;

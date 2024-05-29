@@ -39,8 +39,8 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 /* Homepage */
 .bigHero {
-  /* background-image: url('https://img.freepik.com/free-vector/peach-bubble-patterned-background_53876-90684.jpg?w=1800&t=st=1701860836~exp=1701861436~hmac=af14da1ec9a0bcb86c55e6d92ef2faadbb20638d735263d1332e25ea53b8a792'); */
-  background-image: url('./Images/BgHome.jpg');
+
+  background-image: url('./Images/BgHome.webp');
   height: 70vh;
   background-repeat: no-repeat;
   width: 100%;
