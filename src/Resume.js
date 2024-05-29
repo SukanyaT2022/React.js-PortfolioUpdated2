@@ -80,6 +80,8 @@ const Resume = () => {
 <li>User Interface Design</li>
 <li>Responsive design</li>
 <li>Debugging skills</li>
+<li>Web Optimization</li>
+<li>SEO</li>
     </ul>
 
 <h2 className='font-bold mt-5'>EDUCATION</h2>
