@@ -48,7 +48,7 @@ const Resume = () => {
   {/* top right Box */}
   <div class="flex-initial md:w-[55%] lg:w-[70%] w-full  py-7 md:px-2 lg:p-5 flex items-center justify-center flex-col">
  <h3 className='text-2xl font-bold self-start ml-8'>FRONT-END DEVELOPER</h3>
- <p className='px-8 pt-4'>Motivated front-end developer. An associate degree in computer science, August 2023, Norwalk Community College. Two years of experience with web development at NCC and personal projects, and self-taught through FreeCodeCamp.com and w3school. Seeking to use proven skills in HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, OOP, React, Rest APIs, SQL, and PHP to help businesses reach their goals.</p>
+ <p className='px-8 pt-4'>Seeking opportunities in Front-End Developer position and IOS developer, Crafting Responsive Web Experiences, JavaScript, HTML&CSS, React.js, Bootstrap, Tailwind CSS, SQL, Azure, Swift, REST APIs, Website Optimization and SEO.</p>
   </div>
 </div>
 
