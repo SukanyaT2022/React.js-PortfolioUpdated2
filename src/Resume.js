@@ -36,7 +36,7 @@ const Resume = () => {
 
    <div className='iconText flex items-center'>
 <div className='icon mx-4'><BsGlobeAmericas/></div>
-<a href='https://sukanyat.com/'>https://sukanyat.com/</a>
+<a href='https://sukanyat.com/'>https://tsukanya.com/</a>
    </div>
 
    <div className='iconText flex items-center'>
@@ -100,7 +100,7 @@ const Resume = () => {
 {/*bottom right Box */}
 <div class="flex-initial md:w-[55%] lg:w-[70%] w-full pt-5 md:px-7 lg:px-14 flex flex-col md:space-y-2 space-y-6  lg:pb-24 px-8 pb-7 ">
    <h2 className='font-bold text-2xl text-center md:text-left mb-5'>WORK HISTORY</h2>
-   <h3 className='font-bold'>Personal Projects - Personal Projects </h3>
+   <h3 className='font-bold'>Personal Projects</h3>
    <p><em>Weston, CT • 01/2020 - Current</em></p>
    <ul className='skills space-y-3'>
 <li>Building an e-commerce website for children's fashion using JavaScript, React, Bootstrap-React, HTML, and CSS.</li>
