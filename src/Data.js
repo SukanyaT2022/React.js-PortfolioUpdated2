@@ -3,6 +3,15 @@ import women4 from '../src/Images/women4.webp';
 import women6 from '../src/Images/women6.webp'; 
 import man3 from '../src/Images/man3.webp'; 
 export const dataPortfolio = [
+  {
+    id: '12p',
+    title: 'Math Game for Kiddo',
+    detail: 'Built with: JavaScript, DynamicHTML, HTML & CSS',
+    myLink: 'java-script-math-game-kids-4zd8ygvp6-sukanyat2022s-projects.vercel.app',
+    image:
+      'https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0aCUyMGdhbWUlMjBraWR8ZW58MHx8MHx8fDA%3D',
+    alt: 'a small brown dog uses computer',
+  },
   
   {
     id: '11p',
