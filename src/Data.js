@@ -3,6 +3,7 @@ import women4 from '../src/Images/women4.webp';
 import women6 from '../src/Images/women6.webp'; 
 import man3 from '../src/Images/man3.webp'; 
 export const dataPortfolio = [
+  
   {
     id: '11p',
     title: 'Custom Website Design',
