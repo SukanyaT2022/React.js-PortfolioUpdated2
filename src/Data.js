@@ -2,17 +2,29 @@ import women from '../src/Images/women.webp';
 import women4 from '../src/Images/women4.webp'; 
 import women6 from '../src/Images/women6.webp'; 
 import man3 from '../src/Images/man3.webp'; 
+
+
 export const dataPortfolio = [
-  {
-    id: '12p',
-    title: 'Math Game for Kiddo',
-    detail: 'Built with: JavaScript, DynamicHTML, HTML & CSS',
-    myLink: 'java-script-math-game-kids-4zd8ygvp6-sukanyat2022s-projects.vercel.app',
-    image:
-      'https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0aCUyMGdhbWUlMjBraWR8ZW58MHx8MHx8fDA%3D',
-    alt: 'a small brown dog uses computer',
-  },
   
+  {
+    id: '15p',
+    title: 'Math Game For Kiddos',
+    detail: 'Built with: HTML & CSS, TailwindCSS, JavaScript, and DynamicHTML ',
+    myLink: 'https://java-script-math-game-kids.vercel.app/',
+    image:
+      'https://plus.unsplash.com/premium_photo-1719329701984-b2f879ebaa5d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWF0aCUyMGdhbWV8ZW58MHx8MHx8fDA%3D',
+    alt: 'Kids',
+  },
+  {
+    id: '14p',
+    title: 'Gym Memberships - Still in progress.',
+    detail: 'Built with: HTML & CSS, TailwindCSS, JavaScript, and DynamicHTML ',
+    myLink: 'https://java-script-gym-member-booking.vercel.app/',
+    image:
+      'https://images.unsplash.com/photo-1578882113036-761708189373?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV4Y2VyY2lzZXxlbnwwfHwwfHx8MA%3D%3D',
+    alt: 'Kids',
+  },
+
   {
     id: '11p',
     title: 'Custom Website Design',
@@ -25,7 +37,7 @@ export const dataPortfolio = [
   {
     id: '1p',
     title: 'E-commerce Farm Websites',
-    detail: 'Built with: HTML & CSS, jQuery, and Bootstrap',
+    detail: 'Built with: HTML & CSS, jQuery, Bootstrap, SEO, TailwindCSS',
     myLink: 'https://bootstrap-farm-project.vercel.app/',
     image:
       'https://images.unsplash.com/photo-1536657464919-892534f60d6e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D',
