@@ -23,8 +23,8 @@ const ServiceHome = () => {
   return (
     // services
     <div className="wrapper-service w-[90%] mx-auto my-5">
-      <h1 className="md:text-3xl  text-[22px] md:my-20 my-10 md:font-semibold font-bold text-center text-[#1D1D1F]">
-        Front-End Development Services
+      <h1 className="md:text-2xl  text-[16px] md:my-20 my-10 md:font-semibold font-bold text-center text-[#1D1D1F]">
+      Web & App Development Services | React Native • SwiftUI • AI
       </h1>
       {/* mainbox */}
       <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:gap-7 gap-5">
@@ -41,18 +41,14 @@ const ServiceHome = () => {
           <div className="p-5">
             <a href="#">
               <h3 className=" text-lg font-semibold tracking-tight">
-                HTML & CSS 
+               
               </h3>
               <h3 className="mb-2 text-lg font-semibold tracking-tight">
             Responsive Web Design
               </h3>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 ">
-              Enterprise-class websites require consistent colors, fonts, and
-              design elements to adhere to the organization's branding
-              guidelines. As an expert in designing responsive websites, I
-              specialize in utilizing CSS at the core of front-end development,
-              complemented by JavaScript and HTML.
+            My expertise includes building custom websites and WordPress-powered e-commerce solutions tailored to your business needs. Whether you're starting from scratch or scaling an existing platform, I can create a professional and responsive website that reflects your brand.
             </p>
           </div>
         </div>
@@ -65,14 +61,11 @@ const ServiceHome = () => {
           <div className="p-5">
             <a href="#">
               <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#1D1D1F] dark:text-white">
-                Javascript Development
+              React JS Development Services
               </h3>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              JavaScript frameworks form the foundation of contemporary
-              websites. With expertise in enhancing core JavaScript development
-              and leveraging the latest frameworks and libraries, <br className='block lg:hidden'/>I specialize
-              in constructing dynamic and responsive websites.
+            As a freelance React JS developer, I build high-performance, scalable, and user-friendly web applications using the power of React.js. Known for its flexibility and speed, React allows me to create dynamic interfaces for everything from web platforms to mobile app front-ends.
             </p>
           </div>
         </div>
@@ -88,15 +81,11 @@ const ServiceHome = () => {
           <div className="p-5">
             <a href="#">
               <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#1D1D1F] dark:text-white">
-                React JS Development
+              React Native Mobile App 
               </h3>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              As a freelancer specializing in ReactJS development, I recognize
-              its reputation for extensibility, adaptability, and convenience.
-              Leveraging these strengths, I craft sophisticated software
-              solutions tailored to your business needs, ranging from web
-              browser interfaces to mobile application user interfaces.
+            Helping clients build powerful mobile apps with end-to-end React Native development services for iOS, Android, and cross-platform solutions
             </p>
           </div>
         </div>
@@ -113,7 +102,7 @@ const ServiceHome = () => {
           <div className="p-5">
             <a href="#">
               <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#1D1D1F] dark:text-white">
-                Swift iOS Mobile Development
+                SwiftUI iOS Mobile Development
               </h3>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">

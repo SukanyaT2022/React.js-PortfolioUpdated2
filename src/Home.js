@@ -12,20 +12,21 @@ const Home = () => {
         </div>
         <div className="text text-[#1D1D1F]">
           <p>
-            Looking for web developer services. You're in the right place! As a
-            freelancer, I'm here to bring your online dreams to life. With years
-            of experience and a passion for coding, I'll create a website that
-            stands out from the crowd. Whether you're a small business or a
-            budding entrepreneur, I've got you covered. Let's work together to
-            build something amazing! Reach out today to get started on your
-            digital journey.
+          Looking for a freelance web and mobile app developer? With 3 years of experience, I build responsive websites, iOS apps with SwiftUI, and cross-platform apps using React Native. I also use AI optimization to make apps run smarter.
+Perfect for startups, small businesses, and entrepreneurs.
+Let’s bring your idea to life. Contact me today!
           </p>
+          
+          {/* css button is on navigation.css */}
           {/* <p>As a front-end developer and iOS mobile developer, I specialize in collaborating with businesses to enhance mobile app development, web development, UI/UX design, and various software development projects aimed at improving usability and user experience.</p> */}
-          <a href="contact">
+          {/* <a href="contact">
             <button className="bg-[#F17a7e] hover:bg-[#00ACBB] py-2 px-5 rounded-3xl lg:mt-5 mt-5 text-white">
               Contact Me
             </button>
-          </a>
+          </a> */}
+          <a href="contact">
+                  <button class="rainbow-btn py-2 px-5 rounded-3xl lg:mt-5 mt-5">Contact Me!</button>
+                </a>
         </div>
       </div>
 

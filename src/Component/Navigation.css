@@ -1,3 +1,51 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.rainbow-btn {
+  position: relative;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  color: white;
+  background: white;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  color:black;
+}
+
+.rainbow-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px; /* border thickness */
+  border-radius: inherit;
+  background: linear-gradient(
+    90deg,
+    /* #F17A7E,  
+
+    #FFB499,
+    #01AEB8 */
+
+
+    red,
+    orange,
+    yellow,
+    lime,
+    cyan,
+    blue,
+    magenta,
+    red
+  );
+  background-size: 300% 300%;
+  -webkit-mask: 
+    linear-gradient(#000 0 0) content-box, 
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  animation: moveBorder 4s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moveBorder {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
