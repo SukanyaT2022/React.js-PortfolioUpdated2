@@ -20,20 +20,20 @@
   border-radius: inherit;
   background: linear-gradient(
     90deg,
-    /* #F17A7E,  
+    #F17A7E,  
 
     #FFB499,
-    #01AEB8 */
+    #01AEB8
 
 
-    red,
+    /* red,
     orange,
     yellow,
     lime,
     cyan,
     blue,
     magenta,
-    red
+    red */
   );
   background-size: 300% 300%;
   -webkit-mask: 
