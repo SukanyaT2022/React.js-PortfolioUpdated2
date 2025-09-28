@@ -148,7 +148,7 @@ md:w-[300px] w-[250px]
       {/* process  start */}
       {/* wrapper belowmainprocess in css for shadow custom */}
       <div className="mainProcess bg-white py-10 md:mt-14  mt-10 rounded-3xl">
-        <h2 className="text-3xl font-semibold text-center lg:mb-10 md:mb-5 mb-5">
+        <h2 className="text-2xl font-semibold text-center lg:mb-10 md:mb-5 mb-5">
           Our Process
         </h2>
 
@@ -231,7 +231,7 @@ md:w-[300px] w-[250px]
       {/* Det start today - start service  get quote */}
       {/* wrapper belowmainprocess in css for shadow custom */}
       <div className="mainProcess bg-white py-10 md:mt-14  mt-10 rounded-3xl">
-        <h2 className="text-3xl font-semibold text-center lg:mb-10 md:mb-5 mb-5">
+        <h2 className="text-2xl font-semibold text-center lg:mb-10 md:mb-5 mb-5">
         Get Started Today
         </h2>
 
@@ -320,7 +320,7 @@ md:w-[300px] w-[250px]
 
 
 <div className="mainProcess bg-white py-16 md:mt-14  mt-10 rounded-3xl ">
-<h2 className="text-3xl font-semibold  lg:mb-7 md:mb-5 mb-5 text-center">Why us?</h2>
+<h2 className="text-2xl font-semibold  lg:mb-7 md:mb-5 mb-5 text-center">Why us?</h2>
   <p className=' md:text-center  text-left  md:px-10  px-5 mb-10 md:text-xl text-lg '>
   We prioritize our clients' needs and work closely throughout the development process. 
 </p>
