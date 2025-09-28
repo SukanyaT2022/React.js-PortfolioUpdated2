@@ -126,11 +126,11 @@ const ServiceHome = () => {
 </div>
 {/* text  div*/}
 <div className='md:pr-16 px-5'>
-<h2 className="md:text-xl  text-xl md:text-left text-center font-semibold  lg:mb-2 md:mb-5 mb-5">Get Help For Strong Digital Presence of Your Business</h2>
+<h2 className="md:text-xl  text-xl md:text-left text-center font-semibold  lg:mb-2 md:mb-5 mb-5">Boost Your Business with Expert Web & Mobile App Development</h2>
   {/* <p className='leading-7'>
   We prioritize our clients' needs and work closely with them throughout the development process. Our goal is to deliver a website that not only meets but exceeds your expectations. From planning to launch and beyond, we manage every aspect of web development, allowing you to focus on your core business. Our transparent and efficient process ensures a hassle-free experience.</p>
    */}
-  <p className='leading-7 mt-3'> Our commitment to your success doesn’t end with the launch of your website. We provide ongoing support and maintenance to ensure your site remains up-to-date, secure, and effective. By choosing our web development services, you can rest assured that your website is in good hands. We handle the technical details, so you can focus on what you do best—running your business.
+  <p className='leading-7 mt-3'> Our commitment to your success goes beyond just launching your project. Whether you need a custom website, a native iOS app, or a cross-platform mobile application built with React Native, I’m here to support you every step of the way. Let me handle the technical side, so you can stay focused on growing your business.
   </p>
 
   <a href ="contact"><button className=' text-white font-semibold py-3 px-10 rounded-3xl block mx-auto mt-10 
