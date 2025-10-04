@@ -26,7 +26,7 @@ const Resume = () => {
 
    <div className='iconText flex items-center'>
 <div className='icon mx-4'><IoIosPhonePortrait/></div>
-<a href='tel:+13474419148'>3474419148</a>
+<a href=''></a>
    </div>
 
    <div className='iconText flex items-center'>
