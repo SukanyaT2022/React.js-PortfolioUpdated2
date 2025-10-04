@@ -40,7 +40,7 @@ hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-2 hover:bord
  {/* contact info side */}
  <div className='lg:w-[40%] md:w-[50%] w-full md:h-[360px] h-auto mt-[20px] bg-red-200  text-md xl:pl-14 lg:pl-8  md:pl-6 pt-14 rounded-xl pb-8 mb-10'>
   <h2 className='font-bold text-xl md:text-center text-center md:mb-6'>Contact Information</h2>
-  <a href='tel:+13474419148' ><h2 className='flex items-center my-3'><span className='mx-4'><MdPhoneIphone/></span>+13474419148</h2></a>
+  {/* <a href='tel:+13474419148' ><h2 className='flex items-center my-3'><span className='mx-4'><MdPhoneIphone/></span></h2></a> */}
   <a href='mailto:SukanyaT2022A@gmail.com' target='_blank'><h2 className='flex items-center my-3'><span className='mx-4'><MdOutlineMailOutline/></span>SukanyaT2022A@gmail.com</h2></a>
   <a href='https://github.com/SukanyaT2022?tab=repositories' target='_blank'><h2 className='flex items-center my-3'><span className='mx-4'><FaGithub /></span>https://github.com/SukanyaT2022</h2></a>
   <a href='https://www.linkedin.com/in/tiparpron-sukanya/' target='_blank'><h2 className='flex items-center my-3'><span className='mx-4'><GrLinkedin/></span>

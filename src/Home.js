@@ -1,8 +1,8 @@
-import React from 'react';
-import myImg from './Images/sukanyaT.webp';
-import ServiceHome from './Component/ServiceHome';
-import ReviewHome from './Component/ReviewHome';
-import FaqsHome from './Component/FaqsHome';
+import React from "react";
+import myImg from "./Images/sukanyaT.webp";
+import ServiceHome from "./Component/ServiceHome";
+import ReviewHome from "./Component/ReviewHome";
+import FaqsHome from "./Component/FaqsHome";
 const Home = () => {
   return (
     <div>
@@ -12,11 +12,14 @@ const Home = () => {
         </div>
         <div className="text text-[#1D1D1F]">
           <p>
-          Looking for a freelance web and mobile app developer? With 3 years of experience, I build responsive websites, iOS apps with SwiftUI, and cross-platform apps using React Native. I also use AI optimization to make apps run smarter.
-Perfect for startups, small businesses, and entrepreneurs.
-Let’s bring your idea to life. Contact me today!
+            Looking for a freelance web and mobile app developer? With 3 years
+            of experience, I build responsive websites, iOS apps with SwiftUI,
+            and cross-platform apps using React Native. I also use AI
+            optimization to make apps run smarter. Perfect for startups, small
+            businesses, and entrepreneurs. Let’s bring your idea to life.
+            Contact me today!
           </p>
-          
+
           {/* css button is on navigation.css */}
           {/* <p>As a front-end developer and iOS mobile developer, I specialize in collaborating with businesses to enhance mobile app development, web development, UI/UX design, and various software development projects aimed at improving usability and user experience.</p> */}
           {/* <a href="contact">
@@ -25,8 +28,10 @@ Let’s bring your idea to life. Contact me today!
             </button>
           </a> */}
           <a href="contact">
-                  <button class="rainbow-btn py-2 px-5 rounded-3xl lg:mt-5 mt-5">Contact Me!</button>
-                </a>
+            <button class="rainbow-btn py-2 px-5 rounded-3xl lg:mt-5 mt-5">
+              Contact Me!
+            </button>
+          </a>
         </div>
       </div>
 
