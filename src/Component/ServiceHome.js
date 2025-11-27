@@ -30,7 +30,7 @@ const ServiceHome = () => {
       <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:gap-7 gap-5">
         {/* smallbox */}
         <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20 
-        xl:h-[500px] lg:h-[450px] md:pt-10 pt-10 text-black  hover:border-[#4AA6E9]">
+        xl:h-[420px] lg:h-[450px] md:h-[420px] h-[430px] md:pt-10 pt-10 text-black  hover:border-[#4AA6E9]">
           <div className=" md:h-[20%] h-auto flex items-center py-5">
             <img
               src={responsiveWebImg}
@@ -54,7 +54,7 @@ const ServiceHome = () => {
         </div>
 
         {/* box 2 middle  */}
-        <div className="customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9] xl:h-[500px] lg:h-[450px]">
+        <div className="customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9]  xl:h-[420px] lg:h-[450px] md:h-[420px] h-[430px]">
           <div className=" md:h-[20%] h-auto py-2">
             <img src={JSimage} className="w-[50%] h-full mx-auto" alt='js html css'/>
           </div>
@@ -70,7 +70,7 @@ const ServiceHome = () => {
           </div>
         </div>
         {/* box 3 right */}
-        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black   hover:border-[#4AA6E9] xl:h-[500px] lg:h-[450px]">
+        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black   hover:border-[#4AA6E9] xl:h-[420px] lg:h-[450px] md:h-[420px] h-[430px]">
           <div className=" md:h-[20%] h-auto py-2">
             <img
               src={reactIMG}
@@ -91,7 +91,7 @@ const ServiceHome = () => {
         </div>
 
         {/* box 4 right */}
-        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9] xl:h-[500px] lg:h-[450px]">
+        <div className=" customFendServices bg-white border border-gray-200 rounded-3xl shadow xl:pt-5 lg:pt-20  md:pt-10 pt-10  text-black  hover:border-[#4AA6E9] xl:h-[420px] lg:h-[450px] md:h-[420px] h-[430px]">
           <div className=" h-[20%] py-2">
             <img
               src={mobileImg}

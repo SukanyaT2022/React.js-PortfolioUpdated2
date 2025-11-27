@@ -38,9 +38,9 @@ export default function FaqsHome() {
   };
 
   return (
-    <div className="App text-3xl bg-gradient-to-r from-cyan-500 to-blue-500 w-[90%] rounded-3xl mx-auto md:my-5  mt-10  text-center py-16 ">
+    <div className="App text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 w-[90%] rounded-3xl mx-auto md:my-5  mt-10  text-center py-16 ">
       <h2 className="font-semibold">FAQS</h2>
-      <div className="faqs text-3xl ">
+      <div className="faqs text-xl ">
         {faqs.map((faq, index) => (
           <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
         ))}
