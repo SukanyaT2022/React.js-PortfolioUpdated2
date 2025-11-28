@@ -28,7 +28,7 @@ const Home = () => {
             </button>
           </a> */}
           <a href="contact">
-            <button class="rainbow-btn py-2 px-5 rounded-3xl lg:mt-5 mt-5">
+            <button className="rainbow-btn xl:ml-20 md:ml-0 mx-auto block md:py-2 md:px-5  py-3 px-14 rounded-3xl lg:mt-5 mt-3">
               Contact Me!
             </button>
           </a>

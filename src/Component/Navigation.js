@@ -10,8 +10,9 @@ const navigation = [
   { name: "Resume", href: "resume", current: false },
   { name: "About Me", href: "aboutme", current: false },
   { name: "Portfolio", href: "portfolio", current: false },
-  { name: "React Projects", href: "reactportfolio", current: false },
-  { name: "IOS & Swift Projects", href: "swiftportfolio", current: false },
+  { name: "React.js", href: "reactportfolio", current: false },
+  { name: "React Native", href: "swiftportfolio", current: false },
+  { name: "IOS & SwiftUI", href: "swiftportfolio", current: false },
   { name: "Contact", href: "contact", current: false },
 ];
 
@@ -39,17 +40,21 @@ function Navigation() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center  lg:items-stretch lg:justify-center  xl:items-stretch xl:justify-start">
-                {/* targetLogo */}
-                <div className="flex flex-shrink-0 items-center ">
+
+              {/* logo div */}
+              <div className="flex flex-shrink-0 items-center justify-center relative inset-full top-0  xl:left-0 md:left-2/4 left-36">
                   <a href="/">
                     <img
-                      className="h-14 w-auto lg:pl-48 xl:pl-0"
+                      className="h-14 w-auto block mx-auto  xl:pl-0"
                       src={myLogo}
                       alt="logo"
                     />
                   </a>
                 </div>
+
+              <div className="flex flex-1 items-center justify-center  lg:items-stretch lg:justify-center  xl:items-stretch xl:justify-center">
+                {/* targetLogo */}
+               
                 <div className="hidden lg:ml-6 xl:block">
                   {/* control the whole bloc of nav bar */}
 
