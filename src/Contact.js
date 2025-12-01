@@ -1,11 +1,38 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Contact.css'
 import { MdPhoneIphone } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
+import emailjs from "emailjs-com";
+
+const serviceID = process.env.REACT_APP_YOUR_SERVICE_ID;
+const templateID = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+     serviceID,
+      templateID,
+      form.current,
+      publicKey
+    ).then(
+      () => {
+        alert("Message sent!");
+      },
+      (error) => {
+        alert("Error sending message.");
+        console.log(error.text);
+      }
+    );
+  };
+
   return (
     <div>
 
@@ -13,19 +40,22 @@ const Contact = () => {
 
     <div className='mainBox flex md:justify-evenly justify-center flex-col md:flex-row  w-full px-4 md:mb-10'>
 
-      <form  action="https://formspree.io/f/xayvrwlo" method="post" className="space-y-8 md:w-[40%] w-full pt-5">
+      {/* https://dashboard.emailjs.com/admin */}
+
+      {/* <form  action="https://formspree.io/f/xayvrwlo" method="post" className="space-y-8 md:w-[40%] w-full pt-5"> */}
+          <form ref={form} onSubmit={sendEmail}>
       <div>
               {/* <label for="Name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your First Name</label> */}
-              <input type="text" name="Fname" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="First Name" required/>
+              <input type="text" name="from_name" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="First Name" required/>
           </div>
-          <div>
+          {/* <div>
               
               <input type="text" name="Lname" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" 
               placeholder="Last Name" required/>
-          </div>
+          </div> */}
           <div>
               
-              <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="Email" required/>
+              <input type="email" name="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="Email" required/>
           </div>
         
           <div className="sm:col-span-2">
