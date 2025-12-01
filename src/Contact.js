@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
 
-      <h2 className="targetTitle text-center md:py-10 py-6 text-3xl md:text-5xl font-bold">Contact Us</h2>
+      <h2 className="targetTitle text-center md:py-10 py-6 text-3xl md:text-3xl font-bold">Contact Us</h2>
 
     <div className='mainBox flex md:justify-evenly justify-center flex-col md:flex-row  w-full px-4 md:mb-10'>
 

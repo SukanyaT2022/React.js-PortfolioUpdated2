@@ -10,8 +10,8 @@ const navigation = [
   { name: "Resume", href: "resume", current: false },
   { name: "About Me", href: "aboutme", current: false },
   { name: "Portfolio", href: "portfolio", current: false },
-  { name: "React.js", href: "reactportfolio", current: false },
-  { name: "React Native", href: "swiftportfolio", current: false },
+  { name: "React.js | Next.js", href: "reactportfolio", current: false },
+  { name: "ReactNative", href: "swiftportfolio", current: false },
   { name: "IOS & SwiftUI", href: "swiftportfolio", current: false },
   { name: "Contact", href: "contact", current: false },
 ];

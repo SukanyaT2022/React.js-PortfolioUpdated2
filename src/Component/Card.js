@@ -26,7 +26,7 @@ const Card = ({ data }) => {
               {/*change size destop change md number if custum put []*/}
 
               <div class="flex flex-col justify-between p-4 leading-normal">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">
                   {' '}
                   {val.title}
                 </h5>

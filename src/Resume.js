@@ -24,14 +24,14 @@ const Resume = () => {
 <a href='mailto:sukanyat2022a@gmail.com'>sukanyat2022a@gmail.com</a>
    </div>
 
-   <div className='iconText flex items-center'>
+   {/* <div className='iconText flex items-center'>
 <div className='icon mx-4'><IoIosPhonePortrait/></div>
 <a href=''></a>
-   </div>
+   </div> */}
 
    <div className='iconText flex items-center'>
 <div className='icon mx-4'><RiHome5Fill/></div>
-<a href=''>Weston, CT 06883 </a>
+<a href=''>Connecticut</a>
    </div>
 
    <div className='iconText flex items-center'>

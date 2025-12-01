@@ -17,7 +17,7 @@ const AboutMe = () => {
 
         {/* text side */}
         <div className="text-aboutme w-full lg:w-[60%] md:w-[60%]  lg:pr-36 md:pr-14 lg:pl-10 lg:pt-24 md:pt-20 pt-0 md:pb-16 lg:px-10 px-10">
-          <h2 className="font-bold md:text-2xl text-xl pb-5 text-[#565656]">
+          <h2 className="font-bold md:text-xl text-xl pb-5 text-[#565656]">
          Nice to meet you!
           </h2>
           <p className="text-md text-[#565656]">
