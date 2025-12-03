@@ -1,16 +1,19 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import { MdPhoneIphone } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import emailjs from "emailjs-com";
+import ConfirmationModalComp from "./Component/ConfirmationModalComp";
 
 const serviceID = process.env.REACT_APP_YOUR_SERVICE_ID;
 const templateID = process.env.REACT_APP_YOUR_TEMPLATE_ID;
 const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
 
 const Contact = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false); 
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,7 +21,8 @@ const Contact = () => {
 
     emailjs.sendForm(serviceID, templateID, form.current, publicKey).then(
       () => {
-        alert("Message sent!");
+        setIsModalOpen(true);
+        e.target.reset();
       },
       (error) => {
         alert("Error sending message.");
@@ -29,9 +33,13 @@ const Contact = () => {
 
   return (
     <div>
+           {isModalOpen && <ConfirmationModalComp onModalClose={() => setIsModalOpen(false)} />} 
+
       <h2 className="targetTitle text-center md:py-10 py-6 text-3xl md:text-3xl font-bold">
         Contact Us
       </h2>
+
+
 
       <div className="mainBox flex md:justify-evenly justify-center flex-col md:flex-row  w-full px-4 md:mb-10">
         {/* https://dashboard.emailjs.com/admin */}
