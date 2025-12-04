@@ -1,5 +1,5 @@
-import React from 'react';
-import myImg2 from './Images/SukanyaT33 copy.webp';
+import React from "react";
+import myImg2 from "./Images/SukanyaT33 copy.webp";
 
 const AboutMe = () => {
   return (
@@ -18,9 +18,10 @@ const AboutMe = () => {
         {/* text side */}
         <div className="text-aboutme w-full lg:w-[60%] md:w-[60%]  lg:pr-36 md:pr-14 lg:pl-10 lg:pt-24 md:pt-20 pt-0 md:pb-16 lg:px-10 px-10">
           <h2 className="font-bold md:text-xl text-xl pb-5 text-[#565656]">
-         Nice to meet you!
+            Nice to meet you!
           </h2>
-          <p className="text-md text-[#565656]">
+
+          {/* <p className="text-md text-[#565656]">
           Welcome to my journey! I switched from the business world to web development, and it's been amazing. After six years of raising my kids, I wanted a new challenge. Inspired by a story about a truck driver who learned to code at 50, I decided to dive into software development.
 
 
@@ -37,10 +38,41 @@ const AboutMe = () => {
             <br />
             As a freelance web developer, I'm always looking for new opportunities to grow and help businesses succeed online. Let's connect and see how we can work together!
           </p>
+ */}
+
+          <div className="text-md text-[#565656] space-y-3">
+            <p>
+              I'm passionate about creating apps that solve real problems and
+              bring people together. After six years raising my family, I was
+              inspired by a story of a 50-year-old truck driver who learned to
+              code, and I knew it was time for my own transformation.
+            </p>
+            <p>
+              I taught myself web and mobile development through platforms like
+              Free Code Camp, Udemy, and YouTube, mastering HTML, CSS,
+              JavaScript, React.js, Next.js, React Native, SwiftUI and more. Also,  I deepened my skills with computer science
+              classes at Norwalk Community College.
+            </p>
+            <p>
+              Now with 3 years of experience, I specialize in building
+              responsive websites and iOS apps using React.js, Next.js, React
+              Native, and SwiftUI. I love the entire process from planning and
+              coding to optimization and SEO, helping small businesses grow
+              their online presence.
+            </p>
+            <p>
+              As a freelance developer, I'm driven by the opportunity to create
+              meaningful digital experiences that connect people and solve
+              everyday challenges. Let's build something great together!
+            </p>
+          </div>
+
           <a href="contact">
-            <button className=" bg-gradient-to-r from-[#F1797E]  to-[#FFB697] 
-hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-2 hover:border-[#F1797E] hover:text-[#F1797E] text-white px-10 py-3 rounded-3xl my-7 md:ml-3 block m-auto ">
-  {/* hover:bg-[#0088cc] */}
+            <button
+              className=" bg-gradient-to-r from-[#F1797E]  to-[#FFB697] 
+hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-2 hover:border-[#F1797E] hover:text-[#F1797E] text-white px-10 py-3 rounded-3xl my-7 md:ml-3 block m-auto "
+            >
+              {/* hover:bg-[#0088cc] */}
               Contact Me
             </button>
           </a>
