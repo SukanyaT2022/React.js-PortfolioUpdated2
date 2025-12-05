@@ -246,6 +246,24 @@ export const dataReact = [
 ];
 export const dataSwift = [
   {
+    id: '6p',
+    title: 'Hotel App',
+    detail: 'Built with: SwiftUI',
+    myLink: 'https://github.com/SukanyaT2022/JungleHotel.git',
+    image:
+      'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsfGVufDB8fDB8fHww',
+    alt: 'jungle hotel',
+  },
+  {
+    id: '7p',
+    title: 'Pet Social App',
+    detail: 'Built with: Swift',
+    myLink: 'https://github.com/SukanyaT2022/SwiftUI-petSocialApp.git',
+    image:
+      'https://media.istockphoto.com/id/1845512061/photo/cute-domestic-cats-and-dogs-of-various-colors-run-through-a-summer-sunny-meadow.webp?a=1&b=1&s=612x612&w=0&k=20&c=2J3kbJekOp6Q3MNuSX_94l9mg7RCMxBftwhD-HQdu6I=',
+    alt: 'pet social',
+  },
+  {
     id: '1p',
     title: 'Contact App',
     detail: 'Built with: Swift',
@@ -336,3 +354,17 @@ export const reviews = [
 export default reviews;
 
 // export default {dataPortfolio,dataReact, dataSwift}
+
+
+export const dataReactNative = [
+  {
+    id: '1y',
+    title: 'Car Rental App',
+    detail: 'Built with: React Native',
+    myLink: 'https://github.com/SukanyaT2022/React-Native-Navigation2.git',
+    image:
+      'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNhciUyMHJlbnRhbHxlbnwwfHwwfHx8MA%3D%3D',
+    alt: 'cars rental',
+  },
+
+]

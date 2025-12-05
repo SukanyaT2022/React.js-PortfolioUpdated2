@@ -11,7 +11,7 @@ const navigation = [
   { name: "About Me", href: "aboutme", current: false },
   { name: "Portfolio", href: "portfolio", current: false },
   { name: "React.js | Next.js", href: "reactportfolio", current: false },
-  { name: "ReactNative", href: "swiftportfolio", current: false },
+  { name: "ReactNative", href: "reactnative", current: false },
   { name: "IOS & SwiftUI", href: "swiftportfolio", current: false },
   { name: "Contact", href: "contact", current: false },
 ];
