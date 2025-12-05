@@ -119,6 +119,15 @@ export const dataPortfolio = [
 ];
 
 export const dataReact = [
+    {
+    id: '16p',
+    title: 'Apartment Rental Website - Still in progress.',
+    detail: 'Built with: Next.js, TailwindCSS, Node.js | Express.js, MongoDB, and REST API integration',
+    myLink: 'https://github.com/SukanyaT2022/NextJS-AptRentalApp-Frontend.git',
+    image:
+      'https://media.istockphoto.com/id/454995843/photo/apartment-complex-dusk.webp?a=1&b=1&s=612x612&w=0&k=20&c=N6FuWSG7a5WBb-2_LucFF_toQq4ltKRZGs7vO0STI4g=',
+    alt: 'apartment rental',
+  },
   {
     id: '15p',
     title: 'Anti-Bully Blog',
