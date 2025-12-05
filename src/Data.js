@@ -257,7 +257,7 @@ export const dataSwift = [
   {
     id: '7p',
     title: 'Pet Social App',
-    detail: 'Built with: Swift',
+    detail: 'Built with: SwiftUI',
     myLink: 'https://github.com/SukanyaT2022/SwiftUI-petSocialApp.git',
     image:
       'https://media.istockphoto.com/id/1845512061/photo/cute-domestic-cats-and-dogs-of-various-colors-run-through-a-summer-sunny-meadow.webp?a=1&b=1&s=612x612&w=0&k=20&c=2J3kbJekOp6Q3MNuSX_94l9mg7RCMxBftwhD-HQdu6I=',
