@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./Contact.css";
+import "./Styles/Contact.css";
 import { MdPhoneIphone } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";

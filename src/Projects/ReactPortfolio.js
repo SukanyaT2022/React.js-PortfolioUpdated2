@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './Component/Card'
-import {dataReact} from './Data'
+import Card from '../Component/Card'
+import {dataReact} from '../Data'
 
 const ReactPortfolio = () => {
   return (

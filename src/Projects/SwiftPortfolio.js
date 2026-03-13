@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './Component/Card'
-import {dataSwift} from './Data'
+import Card from '../Component/Card'
+import {dataSwift} from '../Data'
 const SwiftPortfolio = () => {
   return (
     <div>

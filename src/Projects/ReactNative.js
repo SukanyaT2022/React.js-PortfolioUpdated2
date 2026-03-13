@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Component/Card";
-import { dataReactNative } from "./Data";
+import Card from "../Component/Card";
+import { dataReactNative } from "../Data";
 
 const ReactNative = () => {
   return (

@@ -1,17 +1,17 @@
 import React from "react";
-import "./App.css";
+import "./Styles/App.css";
 import Navigation from "./Component/Navigation";
 import Footer from "./Component/Footer";
 import Layout from "./Component/Layout";
 import { Routes, Route } from "react-router-dom";
 import Portfolio from "./Portfolio";
-import ReactPortfolio from "./ReactPortfolio";
+import ReactPortfolio from "./Projects/ReactPortfolio";
 import Home from "./Home";
-import SwiftPortfolio from "./SwiftPortfolio";
+import SwiftPortfolio from "./Projects/SwiftPortfolio";
 import Resume from "./Resume";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
-import ReactNative from "./ReactNative";
+import ReactNative from "./Projects/ReactNative";
 const App = () => {
   return (
     <>
