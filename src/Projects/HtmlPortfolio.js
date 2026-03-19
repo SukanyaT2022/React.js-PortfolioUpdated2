@@ -3,7 +3,7 @@ import Card from '../Component/Card'
 import {dataPortfolio} from '../Data'
 import PortfolioCardComp from '../Component/PortfolioCardComp'
 
-function htmlCssProject() {
+function HtmlPortfolio() {
   return (
     <div>
       <h2 className='targetTitle text-center md:py-10 pt-8 text-3xl md:text-3xl font-bold'>Portfolio</h2>
@@ -14,4 +14,4 @@ function htmlCssProject() {
   )
 }
 
-export default htmlCssProject
+export default HtmlPortfolio

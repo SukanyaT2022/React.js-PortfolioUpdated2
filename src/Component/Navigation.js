@@ -10,9 +10,9 @@ const navigation = [
   { name: "Resume", href: "resume", current: false },
   { name: "About Me", href: "aboutme", current: false },
   { name: "Portfolio", href: "portfolio", current: false },
-  { name: "React.js | Next.js", href: "reactportfolio", current: false },
-  { name: "ReactNative", href: "reactnative", current: false },
-  { name: "IOS & SwiftUI", href: "swiftportfolio", current: false },
+  // { name: "React.js | Next.js", href: "reactportfolio", current: false },
+  // { name: "ReactNative", href: "reactnative", current: false },
+  // { name: "IOS & SwiftUI", href: "swiftportfolio", current: false },
   { name: "Contact", href: "contact", current: false },
 ];
 
@@ -26,7 +26,7 @@ function Navigation() {
     <Disclosure as="nav" className="bg-[#eeeeee]">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 md:py-2 ">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 md:py-2 py-24">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center xl:hidden">
                 {/* Mobile menu button*/}
@@ -85,7 +85,7 @@ function Navigation() {
                   </button>
                 </a> */}
 
-                {/* <button class="custom-btn btn-6"><span>Download CV</span></button> */}
+                {/* <button class="custom-btn btn-6"><span>portfolio CV</span></button> */}
                 <a href={myResume}>
                   <button class="rainbow-btn">Download CV</button>
                 </a>

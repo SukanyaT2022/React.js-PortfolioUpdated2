@@ -259,6 +259,7 @@ export const dataSwift = [
     title: 'Hotel App',
     detail: 'Built with: SwiftUI',
     myLink: 'https://github.com/SukanyaT2022/JungleHotel.git',
+    deployLink: 'https://github.com/SukanyaT2022/JungleHotel.git',
     image:
       'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsfGVufDB8fDB8fHww',
     alt: 'jungle hotel',

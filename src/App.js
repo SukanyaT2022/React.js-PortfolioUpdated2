@@ -12,6 +12,7 @@ import Resume from "./Resume";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import ReactNative from "./Projects/ReactNative";
+import HtmlPortfolio from "./Projects/HtmlPortfolio";
 const App = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="reactnative" element={<ReactNative />} />
           <Route path="swiftportfolio" element={<SwiftPortfolio />} />
           <Route path="contact" element={<Contact />} />
+            <Route path="htmlportfolio" element={<HtmlPortfolio/>} />
         </Routes>
       </Layout>
     </>
