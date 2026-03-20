@@ -1,12 +1,11 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useRef, useState } from "react";
 
 const teas = [
   {
     id: "green",
     label: "HTML | CSS Javascript",
     description: "Web Apps",
-    gradient: "from-[#f6d365] via-[#f78ca0] to-[#f557a8]",
+   gradient: "from-[#A8E6E2] via-[#C5E8C0] to-[#F0E6B0]",
     accent: "#6fbf73",
     img: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&q=80",
     url: "HtmlPortfolio",
@@ -15,7 +14,7 @@ const teas = [
     id: "herbal",
     label: "React.js | Next.js",
     description: "Web Apps",
-    gradient: "from-[#F0FF44] via-[#3DDDC4] to-[#00C2FF]",
+  gradient: "from-[#F4A96A] via-[#F7C08A] to-[#FDE8C0]",
     accent: "#e57373",
     img: "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?w=400&q=80",
     url: "reactportfolio",
@@ -24,7 +23,7 @@ const teas = [
     id: "oolong",
     label: "React Native",
     description: "Cross-platform mobile apps",
-    gradient: "from-[#FFD93D] via-[#FF9A00] to-[#FF6000]",
+   gradient: "from-[#F5C87A] via-[#C8D97A] to-[#8FD68A]",
     accent: "#d4a44c",
     img: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=400&q=80",
     url: "reactnative",
@@ -32,20 +31,37 @@ const teas = [
   {
     id: "black",
     label: "SwiftUI",
-    description: "iOS mobile apps",
-    gradient: "from-[#F24B6A] via-[#C2456A] to-[#5B2D9E]",
+    description: "IOS mobile apps",
+  gradient: "from-[#7DD87A] via-[#3DD9A0] to-[#00D4C8]",
     accent: "#90a4ae",
     url: "swiftportfolio",
   },
 ];
 
 export default function PortfolioCardComp() {
-  const [hovered, setHovered] = useState(null);
+  const [flipped, setFlipped] = useState(null);
+  const navigateTimeoutRef = useRef(null);
+
+  // Short delay so the flip is perceptible, but navigation still feels immediate.
+  const NAVIGATE_DELAY_MS = 350;
+
+  const handleClick = (e, item) => {
+    e.preventDefault();
+    setFlipped(item.id);
+
+    if (navigateTimeoutRef.current) {
+      clearTimeout(navigateTimeoutRef.current);
+    }
+
+    navigateTimeoutRef.current = setTimeout(() => {
+      window.location.href = item.url;
+    }, NAVIGATE_DELAY_MS);
+  };
 
   return (
     <div
       style={{ fontFamily: "'Cormorant Garamond', 'Georgia', serif" }}
-      className="xl:min-h-screen  bg-[#faf8f4] flex flex-col items-center justify-center py-20 px-6"
+      className="xl:min-h-screen bg-[#faf8f4] flex flex-col items-center justify-center py-20 px-6"
     >
       {/* Header */}
       <div className="text-center mb-16">
@@ -55,30 +71,33 @@ export default function PortfolioCardComp() {
         >
           Portfolio
         </h1>
-        <div className="mt-4 mx-auto w-16 h-[2px] bg-gradient-to-r from-blue-500 to-purple-500" />
+        <div className="mt-4 mx-auto w-16 h-[2px] bg-gradient-to-b from-[#7DD87A] via-[#3DD9A0] to-[#00D4C8]" />
       </div>
 
       {/* Circles */}
       <div className="grid grid-cols-2 xl:grid-cols-4 justify-center gap-6 sm:gap-8 lg:gap-12">
         {teas.map((item) => {
-          const isHovered = hovered === item.id;
+          const isFlipped = flipped === item.id;
           return (
             <a
-              href={`${item.url}`}
+              href={item.url}
               key={item.id}
-              className="flex flex-col items-center cursor-pointer"
-              onMouseEnter={() => setHovered(item.id)}
-              onMouseLeave={() => setHovered(null)}
+              className="flex flex-col items-center cursor-pointer no-underline"
+              onClick={(e) => handleClick(e, item)}
               style={{ perspective: "800px" }}
             >
-              {/* Flip container — responsive size via CSS custom property */}
+              {/* Flip container */}
               <div
                 className="circle-card"
                 style={{
                   position: "relative",
                   transformStyle: "preserve-3d",
-                  transition: "transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)",
-                  transform: isHovered ? "rotateY(180deg)" : "rotateY(0deg)",
+                  // Animate only the clicked/active circle.
+                  // Other circles snap back immediately so it doesn't look like multiple flip at once.
+                  transition: isFlipped
+                    ? "transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)"
+                    : "transform 0s linear",
+                  transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
                 }}
               >
                 {/* FRONT */}
@@ -89,7 +108,7 @@ export default function PortfolioCardComp() {
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${item.gradient}`}
                   />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center">
+                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
                     <span
                       className="text-white font-semibold text-xs sm:text-sm tracking-[0.15em] sm:tracking-[0.2em] uppercase text-center px-3 sm:px-4"
                       style={{
@@ -97,7 +116,18 @@ export default function PortfolioCardComp() {
                         textShadow: "0 1px 6px rgba(0,0,0,0.5)",
                       }}
                     >
-                      {item.label}
+                      {item.label}               
+                    </span>
+                           <span
+                      className="text-white text-[6px] sm:text-xs tracking-wide text-center"
+                      style={{
+                        fontFamily: "Georgia, serif",
+                        fontStyle: "italic",
+                        textShadow: "0 1px 4px rgba(0,0,0,0.6)",
+                        lineHeight: 1.6,
+                      }}
+                    >
+                      {item.description}
                     </span>
                   </div>
                 </div>
@@ -112,9 +142,6 @@ export default function PortfolioCardComp() {
                 >
                   <div
                     className={`absolute inset-0 bg-gradient-to-tl ${item.gradient} opacity-90`}
-                  />
-                  <div
-                    className="absolute inset-2 rounded-full"
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-6 gap-2">
                     <span
@@ -146,6 +173,7 @@ export default function PortfolioCardComp() {
                     >
                       {item.description}
                     </span>
+                   
                   </div>
                 </div>
               </div>
@@ -157,9 +185,9 @@ export default function PortfolioCardComp() {
                   width: 6,
                   height: 6,
                   backgroundColor: item.accent,
-                  opacity: isHovered ? 1 : 0.3,
+                  opacity: isFlipped ? 1 : 0.3,
                   transition: "opacity 0.3s ease, transform 0.3s ease",
-                  transform: isHovered ? "scale(1.5)" : "scale(1)",
+                  transform: isFlipped ? "scale(1.5)" : "scale(1)",
                 }}
               />
             </a>
@@ -170,13 +198,11 @@ export default function PortfolioCardComp() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap');
 
-        /* Default: mobile — 2 per row, smaller circles */
         .circle-card {
           width: 145px;
           height: 145px;
         }
 
-        /* Small phones (≤ 360px) — even tighter */
         @media (max-width: 360px) {
           .circle-card {
             width: 125px;
@@ -184,7 +210,6 @@ export default function PortfolioCardComp() {
           }
         }
 
-        /* Tablet and up — original size */
         @media (min-width: 640px) {
           .circle-card {
             width: 180px;
@@ -192,16 +217,11 @@ export default function PortfolioCardComp() {
           }
         }
 
-        /* Desktop — full size */
         @media (min-width: 1024px) {
           .circle-card {
             width: 220px;
             height: 220px;
           }
-        }
-
-        @keyframes ping {
-          75%, 100% { transform: scale(1.15); opacity: 0; }
         }
       `}</style>
     </div>

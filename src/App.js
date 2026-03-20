@@ -27,7 +27,7 @@ const App = () => {
           <Route path="reactnative" element={<ReactNative />} />
           <Route path="swiftportfolio" element={<SwiftPortfolio />} />
           <Route path="contact" element={<Contact />} />
-            <Route path="htmlportfolio" element={<HtmlPortfolio/>} />
+          <Route path="htmlportfolio" element={<HtmlPortfolio />} />
         </Routes>
       </Layout>
     </>

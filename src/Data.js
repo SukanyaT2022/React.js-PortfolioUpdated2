@@ -14,6 +14,7 @@ export const dataPortfolio = [
     image:
       'https://plus.unsplash.com/premium_photo-1719329701984-b2f879ebaa5d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWF0aCUyMGdhbWV8ZW58MHx8MHx8fDA%3D',
     alt: 'Kids',
+    
   },
   {
     id: '14p',
@@ -256,13 +257,14 @@ export const dataReact = [
 export const dataSwift = [
   {
     id: '6p',
-    title: 'Hotel App',
+    title: 'Jungle Hotel App',
     detail: 'Built with: SwiftUI',
     myLink: 'https://github.com/SukanyaT2022/JungleHotel.git',
     deployLink: 'https://github.com/SukanyaT2022/JungleHotel.git',
     image:
-      'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsfGVufDB8fDB8fHww',
+      'https://images.unsplash.com/photo-1572818927875-9aa8d8fc22c0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGp1bmdsZSUyMGhvdGVsfGVufDB8MHwwfHx8MA%3D%3D',
     alt: 'jungle hotel',
+    appleStoreLink: "https://apps.apple.com/in/app/jungle-booking/id6757864801",
   },
   {
     id: '7p',
@@ -369,12 +371,14 @@ export default reviews;
 export const dataReactNative = [
   {
     id: '1y',
-    title: 'Car Rental App',
+    title: 'Roam Car Rental App',
     detail: 'Built with: React Native',
     myLink: 'https://github.com/SukanyaT2022/React-Native-Navigation2.git',
     image:
       'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNhciUyMHJlbnRhbHxlbnwwfHwwfHx8MA%3D%3D',
     alt: 'cars rental',
+    googlePlayLink: "https://apps.apple.com/in/app/jungle-booking/id6757864801",
+    appleStoreLink: "https://apps.apple.com/in/app/roam-car-rental-pro/id6759920165",
   },
 
 ]
