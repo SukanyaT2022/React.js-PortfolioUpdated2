@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from '../Component/Card'
 import {dataPortfolio} from '../Data'
-import PortfolioCardComp from '../Component/PortfolioCardComp'
 
 function HtmlPortfolio() {
   return (

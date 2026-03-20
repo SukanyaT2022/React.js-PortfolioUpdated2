@@ -1,7 +1,6 @@
 import React from "react";
 // import myImg from './Images/sukanyaBGremove.png'
 import { MdOutlineEmail } from "react-icons/md";
-import { IoIosPhonePortrait } from "react-icons/io";
 import { RiHome5Fill } from "react-icons/ri";
 import { BsGlobeAmericas } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
@@ -38,7 +37,7 @@ const Resume = () => {
               <div className="icon mx-4">
                 <RiHome5Fill />
               </div>
-              <a href="">Connecticut</a>
+              <span>Connecticut</span>
             </div>
 
             <div className="iconText flex items-center">

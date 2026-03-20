@@ -96,7 +96,11 @@ hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-2 hover:bord
             Contact Information
           </h2>
           {/* <a href='tel:+13474419148' ><h2 className='flex items-center my-3'><span className='mx-4'><MdPhoneIphone/></span></h2></a> */}
-          <a href="mailto:SukanyaT2022A@gmail.com" target="_blank">
+          <a
+            href="mailto:SukanyaT2022A@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h2 className="flex items-center my-3">
               <span className="mx-4">
                 <MdOutlineMailOutline />
@@ -107,6 +111,7 @@ hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-2 hover:bord
           <a
             href="https://github.com/SukanyaT2022?tab=repositories"
             target="_blank"
+            rel="noreferrer"
           >
             <h2 className="flex items-center my-3">
               <span className="mx-4">
@@ -118,6 +123,7 @@ hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-2 hover:bord
           <a
             href="https://www.linkedin.com/in/tiparpron-sukanya/"
             target="_blank"
+            rel="noreferrer"
           >
             <h2 className="flex items-center my-3">
               <span className="mx-4">
