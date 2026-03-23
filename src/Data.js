@@ -377,7 +377,7 @@ export const dataReactNative = [
     image:
       'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNhciUyMHJlbnRhbHxlbnwwfHwwfHx8MA%3D%3D',
     alt: 'cars rental',
-    googlePlayLink: "https://apps.apple.com/in/app/jungle-booking/id6757864801",
+    googlePlayLink: "https://play.google.com/store/apps/details?id=com.dec17navigation&hl=en-US&ah=ag1OQZKyEte2rYJC4Mu5-YWp2eE&pli=1",
     appleStoreLink: "https://apps.apple.com/in/app/roam-car-rental-pro/id6759920165",
   },
 
