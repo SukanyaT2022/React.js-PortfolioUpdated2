@@ -44,14 +44,16 @@ const Resume = () => {
               <div className="icon mx-4">
                 <BsGlobeAmericas />
               </div>
-              <a href="https://sukanyat.com/">https://tsukanya.com/</a>
+              <a href="https://tsukanya.com/" target="_blank">
+                https://tsukanya.com/
+              </a>
             </div>
 
             <div className="iconText flex items-center">
               <div className="icon mx-4">
                 <FaGithub />
               </div>
-              <a href="https://github.com/SukanyaT2022">
+              <a href="https://github.com/SukanyaT2022" target="_blank">
                 https://github.com/SukanyaT2022
               </a>
             </div>
@@ -60,10 +62,15 @@ const Resume = () => {
           {/* top right Box */}
           <div class="flex-initial md:w-[55%] lg:w-[70%] w-full  py-7 md:px-2 lg:p-5 flex items-center justify-center flex-col">
             <h3 className="text-2xl font-bold self-start ml-8">
-             React & Next.js Developer | React Native & SwiftUI Mobile Engineer
+              React.js & Next.js Web Developer | React Native & SwiftUI Mobile
+              Developer
             </h3>
             <p className="px-8 pt-4">
-           React and mobile developer with 3+ years of proven expertise in Next.js, React Native, and SwiftUI. Skilled in delivering high-performance web applications and native iOS experiences. Strong foundation in modern JavaScript, responsive design, and API integration with a focus on code quality and user-centric solutions.
+              Frontend and Mobile Developer with over 3 years of experience
+              building scalable web and mobile applications using React.js,
+              Next.js, React Native, and SwiftUI. Actively leverage AI tools
+              such as ChatGPT, Cursor AI, Gemini, Claude, and GitHub Copilot to
+              streamline workflows and accelerate project delivery.
             </p>
           </div>
         </div>
@@ -84,12 +91,24 @@ const Resume = () => {
               <li>Teamwork</li>
               <li>Problem – Solving</li>
             </ul>
+            
+             <h4 className="font-bold">AI Skills</h4>
+            <ul className="skills">
+              <li>AI-assisted coding <br/>(Cursor, GitHub Copilot)</li>
+              <li>ntegrating AI APIs <br/>(OpenAI, Google AI, REST APIs)</li>
+              <li>Debugging and optimizing  <br/>AI-generated code</li>
+              <li>Integrated AI in mobile apps  <br/>(SwiftUI, Firebase + AI)</li>
+           
+            </ul>
+
 
             <h4 className="font-bold">Technical Skills</h4>
             <ul className="skills pb-5 ">
               <li>React Native</li>
               <li>SwiftUI</li>
               <li>React</li>
+                <li>TypeScript</li>
+              <li>Node.js</li>
               <li>HTML & CSS, JavaScript</li>
               <li>Bootstrap</li>
               <li>Tailwind CSS</li>
@@ -121,11 +140,21 @@ const Resume = () => {
             </h2>
             <h3 className="font-bold">Personal Projects</h3>
 
-             <p className="font-medium">
+            <p className="font-medium">
               <em>Weston, CT • 01/2024 - Current</em>
             </p>
             <ul className="skills space-y-3">
- <li>
+              <li>
+                Deployed a cross-platform car rental application to the Google
+                Play Store and Apple App Store, managing the full build,
+                release, and update lifecycle
+              </li>
+              <li>
+                Developed and launched a hotel booking iOS application on the
+                Apple App Store, featuring search, reservations, and secure
+                payment integration
+              </li>
+              <li>
                 Developing an Apartment Rental Web App with Next.js and Tailwind
                 CSS featuring SSR, property search, and SEO optimization
               </li>
@@ -133,24 +162,26 @@ const Resume = () => {
                 Built a Pet Social Media iOS App using SwiftUI with social
                 networking, user profiles, and community features for pet owners
               </li>
-              <li>
-                Developed a Car Rental Mobile App with React Native and Tailwind
-                CSS featuring maps, real-time availability, and cross-platform
-                support
-              </li>
+
               <li>
                 Building a Hotel Booking iOS App with SwiftUI, including search,
                 reservations, and payment integration
               </li>
 
+              <li>
+               Developed a WordPress e-commerce website to sell recycled material bags, customizing themes and optimizing performance and SEO.
+              </li>
 
-               </ul>
+              <li>
+              Developed a Shopify e-commerce website for a tea business, customizing themes and optimizing performance and SEO.
+              </li>
+            </ul>
 
-               {/* 2020 until 2024 */}
+            {/* 2020 until 2024 */}
             <p className="pt-6 font-medium">
               <em>Weston, CT • 01/2020 - 2024</em>
             </p>
-                   
+
             <ul className="skills space-y-3">
               <li>
                 Building an e-commerce website for children's fashion using
@@ -208,7 +239,7 @@ const Resume = () => {
             </ul>
             {/* section 2 toy company */}
 
-            <h3 className="font-bold lg:pt-6">
+            {/* <h3 className="font-bold lg:pt-6">
               Wildlife Artists, Inc (Toy Company) - Junior Business Analyst{" "}
             </h3>
             <p>
@@ -229,10 +260,10 @@ const Resume = () => {
                 Worked with clients to meet their requirements to identify
                 business plans and goals.
               </li>
-            </ul>
+            </ul> */}
 
             {/* section 3 farm financail operation */}
-            <h3 className="font-bold lg:pt-6">
+            {/* <h3 className="font-bold lg:pt-6">
               Koon-Mow Farm - Farm Financial Operator
             </h3>
             <p>
@@ -247,10 +278,10 @@ const Resume = () => {
                 Worked with clients to meet their requirements to identify
                 business plans and goals.
               </li>
-            </ul>
+            </ul> */}
 
             {/* section 4 axa */}
-            <h3 className="font-bold lg:pt-6">
+            {/* <h3 className="font-bold lg:pt-6">
               AXA Advisor, LLC - Financial Advisor Internship{" "}
             </h3>
             <p>
@@ -269,7 +300,7 @@ const Resume = () => {
                 Assisted in organizing a financial education seminar for clients
                 and potential clients.
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
